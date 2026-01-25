@@ -124,13 +124,16 @@ This is the preferred Scan-native way to get balance/fee totals for a party.
 Request:
 - `curl -sS --resolve "${SCAN_HOST}:${SCAN_PORT}:${SCAN_IP}" \
   -H 'Content-Type: application/json' \
-  -d '{"party_ids":["<partyId>"]}' \
+  -d '{"migration_id":1,"record_time":"2026-01-25T16:41:02Z","record_time_match":"exact","owner_party_ids":["<partyId>"]}' \
   "${BASE}/v0/holdings/summary"`
 
 Sample response shape:
 ```json
 {
-  "items": [
+  "record_time": "2026-01-25T15:00:00Z",
+  "migration_id": 4,
+  "computed_as_of_round": 80680,
+  "summaries": [
     {
       "party_id": "<partyId>",
       "total_unlocked_coin": "0.0000000000",
@@ -139,8 +142,7 @@ Sample response shape:
       "accumulated_holding_fees_unlocked": "0.0000000000",
       "accumulated_holding_fees_locked": "0.0000000000",
       "accumulated_holding_fees_total": "0.0000000000",
-      "total_available_coin": "0.0000000000",
-      "computed_as_of_round": 0
+      "total_available_coin": "0.0000000000"
     }
   ]
 }

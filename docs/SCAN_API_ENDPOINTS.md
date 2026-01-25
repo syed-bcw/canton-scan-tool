@@ -286,14 +286,17 @@ Purpose:
 Script:
 - `PARTY_ID='...' ./run_api.sh run scan.v0.holdings_summary`
 - Optional: `AS_OF_ROUND=123`
-- Or fully custom payload: `PAYLOAD='{"party_ids":["..."],"as_of_round":123}'`
+- Optional overrides: `MIGRATION_ID=... RECORD_TIME='...' RECORD_TIME_MATCH=exact`
+- Or fully custom payload: `PAYLOAD='{"migration_id":1,"record_time":"...","record_time_match":"exact","owner_party_ids":["..."],"as_of_round":123}'`
 
 Curl:
-- `curl -sS ${RESOLVE} -H 'Content-Type: application/json' -d '{"party_ids":["<party>"],"as_of_round":123}' "${BASE}/v0/holdings/summary"`
+- `curl -sS ${RESOLVE} -H 'Content-Type: application/json' \
+  -d '{"migration_id":1,"record_time":"2026-01-25T16:41:02Z","record_time_match":"exact","owner_party_ids":["<party>"],"as_of_round":123}' \
+  "${BASE}/v0/holdings/summary"`
 
 Expected response shape:
 ```json
-{ "summaries": [ { "party_id": "...", "total_available_coin": "...", "total_coin_holdings": "..." } ], "computed_as_of_round": 123 }
+{ "record_time": "...", "migration_id": 4, "computed_as_of_round": 123, "summaries": [ { "party_id": "...", "total_available_coin": "...", "total_coin_holdings": "..." } ] }
 ```
 
 ### POST /v0/holdings/state
@@ -302,10 +305,14 @@ Purpose:
 
 Script:
 - `PARTY_ID='...' PAGE_SIZE=100 ./run_api.sh run scan.v0.holdings_state`
-- Or custom payload: `PAYLOAD='{"party_ids":["..."],"page_size":100}'`
+- Optional: `AFTER=123` (next_page_token)
+- Optional overrides: `MIGRATION_ID=... RECORD_TIME='...' RECORD_TIME_MATCH=exact`
+- Or custom payload: `PAYLOAD='{"migration_id":1,"record_time":"...","record_time_match":"exact","owner_party_ids":["..."],"page_size":100}'`
 
 Curl:
-- `curl -sS ${RESOLVE} -H 'Content-Type: application/json' -d '{"party_ids":["<party>"],"page_size":100}' "${BASE}/v0/holdings/state"`
+- `curl -sS ${RESOLVE} -H 'Content-Type: application/json' \
+  -d '{"migration_id":1,"record_time":"2026-01-25T16:41:02Z","record_time_match":"exact","owner_party_ids":["<party>"],"page_size":100}' \
+  "${BASE}/v0/holdings/state"`
 
 Expected response shape:
 ```json

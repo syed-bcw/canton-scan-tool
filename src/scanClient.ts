@@ -45,6 +45,49 @@ function readJsonBody(res: IncomingMessage): Promise<unknown> {
   });
 }
 
+export async function scanGetJson<T>(
+  cfg: ScanConfig,
+  path: string,
+  extraHeaders: Record<string, string> = {}
+): Promise<T> {
+  const fullPath = `${cfg.prefix}${path}`;
+
+  const headers: Record<string, string> = {
+    Host: cfg.host,
+    Accept: "application/json",
+    ...extraHeaders,
+  };
+
+  return new Promise<T>((resolve, reject) => {
+    const req = https.request(
+      {
+        host: cfg.ip,
+        port: cfg.port,
+        method: "GET",
+        path: fullPath,
+        servername: cfg.host,
+        headers,
+      },
+      async (res) => {
+        try {
+          const data = (await readJsonBody(res)) as T;
+          const status = res.statusCode ?? 0;
+          if (status < 200 || status >= 300) {
+            reject(new Error(`HTTP ${status} for GET ${fullPath}: ${JSON.stringify(data).slice(0, 2000)}`));
+            return;
+          }
+          resolve(data);
+        } catch (err) {
+          reject(err);
+        }
+      }
+    );
+
+    req.on("error", reject);
+    req.end();
+  });
+}
+
 export async function scanPostJson<T>(
   cfg: ScanConfig,
   path: string,

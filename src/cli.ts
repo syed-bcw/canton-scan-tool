@@ -363,6 +363,10 @@ program
   .option("--party-ids <csv>", "Comma-separated party IDs to query")
   .option("--validator <key>", "Known validator key (see: canton-scan validators)")
   .option("--as-of-round <n>", "Compute holdings as of this round")
+  .option("--migration-id <n>", "Scan migration id (optional; auto-detected if omitted)")
+  .option("--record-time <iso>", "Record time (ISO-8601; optional; auto-detected if omitted)")
+  .option("--record-time-match <mode>", "Record time match mode (default: exact)")
+  .option("--before <iso>", "Used only for record_time auto-detect (default: now)")
   .action(async (opts) => {
     const cfg = getDefaultScanConfig(process.env);
 
@@ -394,16 +398,37 @@ program
       throw new Error("Invalid --as-of-round");
     }
 
-    const resp = await fetchHoldingsSummary(cfg, { partyIds, asOfRound });
+    const migrationIdOpt = opts.migrationId !== undefined ? Number(opts.migrationId) : undefined;
+    const migrationIdEnv = process.env.MIGRATION_ID !== undefined ? Number(process.env.MIGRATION_ID) : undefined;
+    const migrationId = migrationIdOpt ?? migrationIdEnv;
+    if (migrationId !== undefined && (!Number.isFinite(migrationId) || migrationId < 0)) {
+      throw new Error("Invalid --migration-id / MIGRATION_ID");
+    }
+
+    const recordTime = (opts.recordTime as string | undefined) ?? process.env.RECORD_TIME;
+    const recordTimeMatch =
+      (opts.recordTimeMatch as string | undefined) ?? process.env.RECORD_TIME_MATCH ?? "exact";
+    const before = (opts.before as string | undefined) ?? process.env.BEFORE;
+
+    const resp = await fetchHoldingsSummary(cfg, {
+      ownerPartyIds: partyIds,
+      asOfRound,
+      migrationId,
+      recordTime,
+      recordTimeMatch,
+      before,
+    });
+
+    const rows = resp.summaries ?? resp.items ?? [];
 
     // If the user asked for a single party, print a single object for convenience.
     if (partyIds.length === 1) {
-      process.stdout.write(JSON.stringify(resp.items?.[0] ?? null, null, 2));
+      process.stdout.write(JSON.stringify(rows[0] ?? null, null, 2));
       process.stdout.write("\n");
       return;
     }
 
-    process.stdout.write(JSON.stringify(resp.items ?? [], null, 2));
+    process.stdout.write(JSON.stringify(rows, null, 2));
     process.stdout.write("\n");
   });
 
