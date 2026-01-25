@@ -14,5 +14,12 @@ if [ -z "${UPDATE_ID}" ]; then
   exit 2
 fi
 
-# GET /v2/updates/{update_id}
-scan_get "/v2/updates/${UPDATE_ID}"
+if ! command -v jq >/dev/null 2>&1; then
+  echo "jq is required for URL encoding" >&2
+  exit 3
+fi
+
+update_id_enc=$(jq -rn --arg v "$UPDATE_ID" '$v|@uri')
+
+# GET /v0/events/{update_id}
+scan_get "/v0/events/${update_id_enc}"

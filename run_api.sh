@@ -11,6 +11,12 @@ set -eu
 ROOT_DIR="$(dirname "$0")"
 API_DIR="$ROOT_DIR/api"
 
+# Optional: load shared env config (kept out of git by default)
+if [ -f "$ROOT_DIR/.env" ]; then
+  # shellcheck disable=SC1090
+  . "$ROOT_DIR/.env"
+fi
+
 help() {
   cat <<EOF
 Usage: $0 <command>
@@ -36,7 +42,10 @@ build_index() {
   : > "$tmpfile"
   idx=0
   # Use NUL-separated find to be robust with spaces/newlines in names
-  find "$API_DIR" -type f -name '*.sh' -print0 | sort -z | while IFS= read -r -d '' path; do
+  find "$API_DIR" -type f -name '*.sh' \
+    ! -path "$API_DIR/_lib/*" \
+    ! -path "$API_DIR/validator/*" \
+    -print0 | sort -z | while IFS= read -r -d '' path; do
     idx=$((idx + 1))
     # name: strip "$API_DIR"/ prefix, replace / with ., strip .sh
     name=${path#"$API_DIR"/}
@@ -44,6 +53,17 @@ build_index() {
     name=$(printf "%s" "$name" | sed 's#/#.#g')
     printf "%s|%s|%s\n" "$idx" "$name" "$path" >> "$tmpfile"
   done
+
+  # Optionally include Validator scripts.
+  if [ "${API_INCLUDE_VALIDATOR:-0}" = "1" ]; then
+    find "$API_DIR/validator" -type f -name '*.sh' -print0 | sort -z | while IFS= read -r -d '' path; do
+      idx=$((idx + 1))
+      name=${path#"$API_DIR"/}
+      name=${name%.sh}
+      name=$(printf "%s" "$name" | sed 's#/#.#g')
+      printf "%s|%s|%s\n" "$idx" "$name" "$path" >> "$tmpfile"
+    done
+  fi
 }
 
 list_scripts() {
