@@ -1,0 +1,1 @@
+{"name":"scan.v0.state_acs","cmd":"env MIGRATION_ID=4 RECORD_TIME=2026-01-30T06:00:00Z PAGE_SIZE=50 PARTY_IDS=ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c ./run_api.sh run scan.v0.state_acs","exit_code":0,"valid_json":true,"stdout":"scan.v0.state_acs.out","stderr":"scan.v0.state_acs.stderr"}

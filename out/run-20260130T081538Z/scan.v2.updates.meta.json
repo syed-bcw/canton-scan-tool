@@ -1,0 +1,1 @@
+{"name":"scan.v2.updates","cmd":"env PAGE_SIZE=25 DAML_VALUE_ENCODING=compact_json ./run_api.sh run scan.v2.updates","exit_code":0,"valid_json":true,"stdout":"scan.v2.updates.out","stderr":"scan.v2.updates.stderr"}

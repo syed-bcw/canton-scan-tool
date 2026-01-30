@@ -1,0 +1,1 @@
+{"name":"scan.v0.dso_sequencers","cmd":"./run_api.sh run scan.v0.dso_sequencers","exit_code":35,"valid_json":false,"stdout":"scan.v0.dso_sequencers.out","stderr":"scan.v0.dso_sequencers.stderr"}

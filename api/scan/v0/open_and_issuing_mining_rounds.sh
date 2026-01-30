@@ -9,8 +9,12 @@ SCRIPT_DIR="$(CDPATH= cd -- "$(dirname "$0")" && pwd)"
 # POST /v0/open-and-issuing-mining-rounds
 #
 # Env:
-#   PAYLOAD='{}' (optional; defaults to {})
+#   PAYLOAD='{"cached_open_mining_round_contract_ids":[],"cached_issuing_round_contract_ids":[]}' (optional)
 
-payload="${PAYLOAD:-{}}"
+payload="${PAYLOAD:-}"
+
+if [ -z "$payload" ]; then
+	payload='{"cached_open_mining_round_contract_ids":[],"cached_issuing_round_contract_ids":[]}'
+fi
 
 scan_post_json "/v0/open-and-issuing-mining-rounds" "$payload"

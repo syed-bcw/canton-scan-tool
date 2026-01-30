@@ -1,0 +1,2 @@
+The request content was malformed:
+DecodingFailure at .cached_open_mining_round_contract_ids: Missing required field

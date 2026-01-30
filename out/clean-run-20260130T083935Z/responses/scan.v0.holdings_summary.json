@@ -1,0 +1,17 @@
+{
+  "record_time": "2026-01-30T06:00:00Z",
+  "migration_id": 4,
+  "computed_as_of_round": 81323,
+  "summaries": [
+    {
+      "party_id": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+      "total_unlocked_coin": "1361296.3926166390",
+      "total_locked_coin": "0.0000000000",
+      "total_coin_holdings": "1361296.3926166390",
+      "accumulated_holding_fees_unlocked": "0.0016480635",
+      "accumulated_holding_fees_locked": "0.0000000000",
+      "accumulated_holding_fees_total": "0.0016480635",
+      "total_available_coin": "1361296.3909685755"
+    }
+  ]
+}

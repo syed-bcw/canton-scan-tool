@@ -1,0 +1,1 @@
+{"name":"scan.v0.ans_entries_by_name","cmd":"./run_api.sh run scan.v0.ans_entries_by_name -- 02122025max.unverified.cns","exit_code":0,"valid_json":true,"stdout":"scan.v0.ans_entries_by_name.out","stderr":"scan.v0.ans_entries_by_name.stderr"}

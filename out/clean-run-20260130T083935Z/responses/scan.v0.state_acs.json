@@ -1,0 +1,1157 @@
+{
+  "record_time": "2026-01-30T06:00:00Z",
+  "migration_id": 4,
+  "created_events": [
+    {
+      "event_type": "created_event",
+      "event_id": "#122068a06296a0bb913f7adab007c6f14f901b1d7021f17c5dcf864eebb2d50b25f5:0",
+      "contract_id": "00ace419aed7a9035903c7f9017088ba0900703eb589bfd9c87f26418d9435a5bdca1112201d3d01f9b6c7754be4b47ca198e9c0e4d89bf895f6798ec0b1fc9e886c1c8769",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletTransferInstruction:AmuletTransferInstruction",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "lockedAmulet": "001fff8f2efa8742b5c3a0796bc7eadb9ec5112072549c477dc5a889b0deb177d1ca1112205dd2f14144489a1066d0b5cb718794a58853e7cf1b882f4cf1093c9a926cc742",
+        "transfer": {
+          "sender": "ledger-mainnetValidator-0::12200711b2015480dc603652d02e5552be4c14ae9a51da7a063bf6687953c2d544a9",
+          "receiver": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+          "amount": "10.0000000000",
+          "instrumentId": {
+            "admin": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "id": "Amulet"
+          },
+          "requestedAt": "2025-10-24T14:28:37.049717Z",
+          "executeBefore": "2025-10-24T15:28:37Z",
+          "inputHoldingCids": [
+            "001fff8f2efa8742b5c3a0796bc7eadb9ec5112072549c477dc5a889b0deb177d1ca1112205dd2f14144489a1066d0b5cb718794a58853e7cf1b882f4cf1093c9a926cc742"
+          ],
+          "meta": {
+            "values": {
+              "splice.lfdecentralizedtrust.org/reason": "transfer from validator"
+            }
+          }
+        }
+      },
+      "created_at": "2025-10-24T14:28:37.20856Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ledger-mainnetValidator-0::12200711b2015480dc603652d02e5552be4c14ae9a51da7a063bf6687953c2d544a9"
+      ],
+      "observers": [
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220fdbbf0ede13eddf22fcb48c0674777a8cd792de8308d2d7bd72268b4be102cd2:0",
+      "contract_id": "000dddc04c71f171495aafab158c61bdbe6f75f63e3eabb99117c625de4385fd83ca111220a14c3b1f23602dbb93c3f8e2326610ee6ee92770a713b5f5acd19f43fe5bf035",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletTransferInstruction:AmuletTransferInstruction",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "lockedAmulet": "008d8235be57c8cd8d0fab8ac85662d2254d156648afb482d79bcfb3990818ff1dca111220b1a6551c42bf2787f63b3d29b9b48ac16304ea11a8602625955fc6672f28fc40",
+        "transfer": {
+          "sender": "ledger-mainnetValidator-0::12200711b2015480dc603652d02e5552be4c14ae9a51da7a063bf6687953c2d544a9",
+          "receiver": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+          "amount": "1000.0000000000",
+          "instrumentId": {
+            "admin": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "id": "Amulet"
+          },
+          "requestedAt": "2025-10-24T14:29:43.226375Z",
+          "executeBefore": "2025-10-24T15:29:43Z",
+          "inputHoldingCids": [
+            "008d8235be57c8cd8d0fab8ac85662d2254d156648afb482d79bcfb3990818ff1dca111220b1a6551c42bf2787f63b3d29b9b48ac16304ea11a8602625955fc6672f28fc40"
+          ],
+          "meta": {
+            "values": {
+              "splice.lfdecentralizedtrust.org/reason": "transfer from validator"
+            }
+          }
+        }
+      },
+      "created_at": "2025-10-24T14:29:43.348917Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ledger-mainnetValidator-0::12200711b2015480dc603652d02e5552be4c14ae9a51da7a063bf6687953c2d544a9"
+      ],
+      "observers": [
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220e76c729ddbfdd13309ef5bb8f8914f0fd2d4ecf3fc28ec6b516ab11d9a6a2ad6:0",
+      "contract_id": "00c5c833bd35132ab932fb311ca6977a5cebbc5f1014cba7e26f2b415b715378b2ca11122028b5a34078ee81c1183827cc7c77b0bd7778adbb40725b5e16ea08727b070a0e",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220a3bff2efe79a3df1e6764bc4c9283cf212db43a0b6fd9216dc8ef85052fbc924",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-02T17:17:39.423540Z",
+        "lastRenewedAt": "2025-12-02T17:17:39.423540Z",
+        "expiresAt": "2026-03-02T17:17:39.404357Z"
+      },
+      "created_at": "2025-12-02T17:17:39.42354Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220a3bff2efe79a3df1e6764bc4c9283cf212db43a0b6fd9216dc8ef85052fbc924",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12207b7865ca770ab2a12a33b385445083212f0db31984d0397fde7203d479700b22:0",
+      "contract_id": "0022754889408533940f96c0eca87aa4608e95faf999ee6cf2d42ccbc4046a9c8dca1112206869d1e071e677a40980a0e0ef751bd18bd36ccdac58ea6d5e70807bd6e1abfa",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220bb48256c534ebbd9bda0eff9991a32eb13f9f08a5a8bb5962c7c17c6ee555498",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-03T14:05:48.113581Z",
+        "lastRenewedAt": "2025-12-03T14:05:48.113581Z",
+        "expiresAt": "2026-03-03T14:05:48.093067Z"
+      },
+      "created_at": "2025-12-03T14:05:48.113581Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220bb48256c534ebbd9bda0eff9991a32eb13f9f08a5a8bb5962c7c17c6ee555498",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220c9a15b54c16a10209853458046081816fd0343d3419e85edf259546fab466380:0",
+      "contract_id": "00e7c4ee9b9c2049739be1cd6e00003856917891117c7b89c9e3c7bbf554fce4acca11122041ae47c2e0afab3d9e66fc2ac64812fc3c0c4b22e9444479015647d0b061586e",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220a56656ab0dea1c0f76217d203f55592b2f8321200367745bf6e1cb1a3b643118",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-05T14:49:13.847272Z",
+        "lastRenewedAt": "2025-12-05T14:49:13.847272Z",
+        "expiresAt": "2026-03-05T14:49:13.826822Z"
+      },
+      "created_at": "2025-12-05T14:49:13.847272Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220a56656ab0dea1c0f76217d203f55592b2f8321200367745bf6e1cb1a3b643118",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122061d5cdd80e25dc4474d3ab551889525a0e703b8f546c933fcdae43fabdc13ee1:0",
+      "contract_id": "00332d8b7ab92db92e29c5a4cd4d142f184a77b6063206ee57e7f2e0cf4d6884c5ca1112209e100fc25424dcc2474cf515de10a740361faf99c8f677b7debe388c7196d819",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122036b76375533be5ce8c5e80a85c1d1af8fbb661cba969be37e9446b35d74f14eb",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-05T15:10:28.749272Z",
+        "lastRenewedAt": "2025-12-05T15:10:28.749272Z",
+        "expiresAt": "2026-03-05T15:10:28.713840Z"
+      },
+      "created_at": "2025-12-05T15:10:28.749272Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122036b76375533be5ce8c5e80a85c1d1af8fbb661cba969be37e9446b35d74f14eb",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12203b44984c893971fcd9b99dfbe48b6c2780bddaec2066a234ee640c9e06923fc1:0",
+      "contract_id": "002ccda4646ae6b3ffc138c659263cec806bccf162a40f4f94cc08109a8ebf25f1ca111220630176a1a97380e2bfa928fc598afa15a5544a0d173cf666f9ebbc2214e701e6",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122020fcc6e4176ccd00c595adf93a9f74c3f0d6e7ccb7c50929efc07ad6a747ae5f",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-05T17:33:56.302195Z",
+        "lastRenewedAt": "2025-12-05T17:33:56.302195Z",
+        "expiresAt": "2026-03-05T17:33:56.280823Z"
+      },
+      "created_at": "2025-12-05T17:33:56.302195Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122020fcc6e4176ccd00c595adf93a9f74c3f0d6e7ccb7c50929efc07ad6a747ae5f",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12209f8801a0f941051c4b4118985eb0fd453178a475f2c4f02d2d9da50cd77bd0ee:0",
+      "contract_id": "004d3abf656712db867564ec12f2fac2dd50158ef420ef37816034354470320b10ca111220b29b2e0f8f84ee0921906299fe028644bf4500e1467c52871a2c4a23ecd717c7",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220f952e29079c06fff3f820ce8937549dc0867c318e19018257a945ce8bc9307c1",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-08T11:59:30.398189Z",
+        "lastRenewedAt": "2025-12-08T11:59:30.398189Z",
+        "expiresAt": "2026-03-08T11:59:30.379364Z"
+      },
+      "created_at": "2025-12-08T11:59:30.398189Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220f952e29079c06fff3f820ce8937549dc0867c318e19018257a945ce8bc9307c1",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220cafe88a89b405f961546370ed606113a2280474c8e61a363038fbaac3f75e5c7:0",
+      "contract_id": "00829c7b7f2c3a911934a2aaa777cd772a696ae286bd56fcb3f25547703530cd51ca111220d2b2a58ed5fc54187e7d998ae805c5f099cf8ab78f4261485531ca7c4872e531",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12203a3b9f143b4a8136fe95e37a5b9ec86ea53e43bd4e547d87ac08f21011db4692",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-10T11:38:06.332264Z",
+        "lastRenewedAt": "2025-12-10T11:38:06.332264Z",
+        "expiresAt": "2026-03-10T11:38:06.312050Z"
+      },
+      "created_at": "2025-12-10T11:38:06.332264Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12203a3b9f143b4a8136fe95e37a5b9ec86ea53e43bd4e547d87ac08f21011db4692",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220eed418835547e26536a7304cf109aa2019a0c71d35823e4d2a44d2ab6be8e5cb:10",
+      "contract_id": "009628d589b67026f58d461d94f96f7580593cf064ae6200a0d558cb7bba6ee5acca121220c2a903ce459339aab97f44126f02ebccc1cbbf74ca73c999bb20e03f26f659e6",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12208622f67b4da3cdc42860f24b088be1865389e98b549c9c910364aa321da1d721",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-12T11:18:35.087315Z",
+        "lastRenewedAt": "2025-12-12T11:18:35.087315Z",
+        "expiresAt": "2026-03-12T11:18:35.059810Z"
+      },
+      "created_at": "2025-12-12T11:18:35.087315Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12208622f67b4da3cdc42860f24b088be1865389e98b549c9c910364aa321da1d721",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220296baea185003e8a0716ca22e56c79d9932e1f34b23ec23612b7bc60f26546b7:10",
+      "contract_id": "002e7eacd4630fc70223ae2de6ce0b803b14a91880c2b0dff45456afe667f9b587ca1212200098cbb810fa4960e80938ef59b6fc48e187bc73b9ed7f7a1550fe32f5177a2f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122094f9edfd568da98d4f112ecbe08b9031474b231382a304c107dc59b86c2cc5bd",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-18T09:19:16.619619Z",
+        "lastRenewedAt": "2025-12-18T09:19:16.619619Z",
+        "expiresAt": "2026-03-18T09:19:16.595798Z"
+      },
+      "created_at": "2025-12-18T09:19:16.619619Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122094f9edfd568da98d4f112ecbe08b9031474b231382a304c107dc59b86c2cc5bd",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12201795ac6ce655777d0aead243cf7f7f2b054bc5f7347784748f886972016ff4e8:10",
+      "contract_id": "0076493084e621f4112f23d442e50dd066a52bd00b6cddbcfbc16bd7be4528f31bca121220cae221df967c3b679e806e2132ed93b37d8bf4da4758b34efd32f8a119484935",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12209a4d08df5514310a4e741ea792efaf017e3a997989eef2aeb95cad6752bdca08",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-18T09:39:09.561353Z",
+        "lastRenewedAt": "2025-12-18T09:39:09.561353Z",
+        "expiresAt": "2026-03-18T09:39:07.542914Z"
+      },
+      "created_at": "2025-12-18T09:39:09.561353Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12209a4d08df5514310a4e741ea792efaf017e3a997989eef2aeb95cad6752bdca08",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220e1f006df42a3dff0eef6223f5b5e4e2429fc42f90914c8172e432d3175b34a37:10",
+      "contract_id": "005c6bc94d45dddcbf5fb43dc8fe4f12da75ce31ab81ba59b08ad2dce4f82e06d6ca121220b9e03d95e623537aee6ba654506020565d47b66d6f88e2a9cdfb1b0fd036774f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220b0d88adf34a35398c52fc1092aca7b333b4727267c8492ae2d67d89d20ef38f9",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-18T09:52:26.426394Z",
+        "lastRenewedAt": "2025-12-18T09:52:26.426394Z",
+        "expiresAt": "2026-03-18T09:52:26.402450Z"
+      },
+      "created_at": "2025-12-18T09:52:26.426394Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220b0d88adf34a35398c52fc1092aca7b333b4727267c8492ae2d67d89d20ef38f9",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220ab95a4f2b2f3f66cec65baa00a5d523bdc9a52a2dc237e4ac5bb7c05bde4f2a9:10",
+      "contract_id": "0077320e8ef02bec345b178b296d8123f8602fb80ec860d5f07f25be0b83214490ca12122064d7fd8aafe77a57b6f48645df222903a0aae9afc6eedbfdfd427e70604c506f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220f8c78f19fe4d15f7a2abaa70c5982eaa40107f616cd089f4dff5394d3636ac7f",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-12-23T13:59:56.774601Z",
+        "lastRenewedAt": "2025-12-23T13:59:56.774601Z",
+        "expiresAt": "2026-03-23T13:59:56.755594Z"
+      },
+      "created_at": "2025-12-23T13:59:56.774601Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220f8c78f19fe4d15f7a2abaa70c5982eaa40107f616cd089f4dff5394d3636ac7f",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220c7126b5757828609e6dcece56711949a255eeb7a2db67a091fd3dfff366fd299:11",
+      "contract_id": "00021ceb0b60dfe0760c554773e0dbc04aedb2e687c0dbd08180178a8fb51b873eca121220e721d5c6312283a906a8e4584e2130aa3bbc576dbabfbf15d4b52ab13d95720f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220179e741b8011169c0612b45ee8049dd900f3bd3fe5baa1ff586aa8422b568b99",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-28T16:26:30.679306Z",
+        "lastRenewedAt": "2025-12-27T16:26:43.174762Z",
+        "expiresAt": "2026-04-26T16:26:30.646688Z"
+      },
+      "created_at": "2025-12-27T16:26:43.174762Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220179e741b8011169c0612b45ee8049dd900f3bd3fe5baa1ff586aa8422b568b99",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220bb87ed7c8464a33d706ab4aa44f4f2c1506cc4dfc7ab96e6571e83eb4bdf58cb:11",
+      "contract_id": "00b4c12de33ecdd934cf57fe44dc199fe0ea616f86188987bc2bd071811fe18fdeca121220070c1fb062cb62a955406d3262d81d800aaa268548098d4cd055ad581829ec4a",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12205ffeb20fcc055cc22366b7a9009734c12f6fcacb92b44afe966d96a55e1650ed",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-28T18:22:36.231804Z",
+        "lastRenewedAt": "2025-12-27T18:23:03.161136Z",
+        "expiresAt": "2026-04-26T18:22:36.209975Z"
+      },
+      "created_at": "2025-12-27T18:23:03.161136Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12205ffeb20fcc055cc22366b7a9009734c12f6fcacb92b44afe966d96a55e1650ed",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220a745ed031b26c4fbd24284a0d9941cab1f585977534f9a749cc639c5203ed479:11",
+      "contract_id": "00ac1f609406257f8e3772a0eb5f999dd92b1e347892232ae427e90a90076092fdca121220f79489f4e925a1f66a2bdce886ae147e82504df20f7653135dc9faf2d33ce526",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12201b780e76d18bfb92cbbf5fa8a98ad5d87c647b132e69ad6e3e56d957af4c4258",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-29T09:02:00.061438Z",
+        "lastRenewedAt": "2025-12-28T09:02:22.896543Z",
+        "expiresAt": "2026-04-27T09:02:00.024599Z"
+      },
+      "created_at": "2025-12-28T09:02:22.896543Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12201b780e76d18bfb92cbbf5fa8a98ad5d87c647b132e69ad6e3e56d957af4c4258",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220155f22e292baa14a794137ef6b2e2afad941f610f0fe3283644f11155a0a75de:11",
+      "contract_id": "0063491692d5b51bf8bab3e4c55a414084f0598637623d2e51f921415e6587f432ca121220df5638ccf09dfb9a6b43df7f11c547866b2e4dd6efa454a685a0713f3296fe02",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220e5e95e03b190afe9e303e87ba3fa58633f3b4ad4a1358cd8f50fcddc8085522d",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-29T09:52:39.762952Z",
+        "lastRenewedAt": "2025-12-28T09:53:03.430430Z",
+        "expiresAt": "2026-04-27T09:52:39.742965Z"
+      },
+      "created_at": "2025-12-28T09:53:03.43043Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220e5e95e03b190afe9e303e87ba3fa58633f3b4ad4a1358cd8f50fcddc8085522d",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220db60c91c2cb655afa53d1723f9f13461d5d262de32cd181cca820bd11ce28970:11",
+      "contract_id": "000fc16b9e4c00d3ca950ee5b0cdd221e2de42175fd6f81a055eaf7f8e155443f6ca1212208adbed22d892c76a4cdfae36c2bc039972af74d052cba73a1ab15dd007673c54",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220b7d978c0114423cf75546e8edf7e7fd248542ec3c174c97cd79b3afe18694d07",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-29T10:04:48.352294Z",
+        "lastRenewedAt": "2025-12-28T10:05:05.898040Z",
+        "expiresAt": "2026-04-27T10:04:48.332325Z"
+      },
+      "created_at": "2025-12-28T10:05:05.89804Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220b7d978c0114423cf75546e8edf7e7fd248542ec3c174c97cd79b3afe18694d07",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220a5bf0f380aaa6a544f4c5339ee9c17d5571c7d043b8c28321f081b51c2055a32:11",
+      "contract_id": "00c8069e1d25c75247bb2142c4cb79678b1afa9672794d8244a4a85a18caa1fd02ca121220092a1d63b9f8ca22ef248b9676f5e0e971efa417772f3ce29418aec273a426d0",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12201c07b6d6c73dc25f3b76b57d9a1b1fb63a8e62a6cf45fca0ba4ae02af180b14c",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-29T10:25:27.318281Z",
+        "lastRenewedAt": "2025-12-28T10:25:53.607178Z",
+        "expiresAt": "2026-04-27T10:25:27.296549Z"
+      },
+      "created_at": "2025-12-28T10:25:53.607178Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12201c07b6d6c73dc25f3b76b57d9a1b1fb63a8e62a6cf45fca0ba4ae02af180b14c",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12204489b951af50a60ec92214b3c689fd5a62d59cd1efef21e9e4febf65f6510f5a:11",
+      "contract_id": "00c9205bb33f14634dc6356f934590b5a0f20521fcb97f4bb49affa476347726c5ca121220a2a82434668efddd576c02f1b55a2a2387f21f1db8eaf7c1360c3cb83af5143c",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12209473393e30764ad849172ff73363bec408afb894fe8faf7c36da9324161fe4b7",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-10-29T15:55:20.074898Z",
+        "lastRenewedAt": "2025-12-28T15:55:48.877666Z",
+        "expiresAt": "2026-04-27T15:55:20.055060Z"
+      },
+      "created_at": "2025-12-28T15:55:48.877666Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12209473393e30764ad849172ff73363bec408afb894fe8faf7c36da9324161fe4b7",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12207259299cbe30c4393f108fc51bbbc586dc6606ffdc91dca7e6b1850058290160:11",
+      "contract_id": "00e36f202f048de34fbb270b3017be19cc0b04ad0a58b6d43478ddfbd8f756d2fbca121220393f34315a70c24dfd4674b9216dcfec34d473d3ab3a00a5008e882b7a7fc83b",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220a45062ce6db64e539f497780f8d08b3c25bbabacfd5af22025da6240f27eb623",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-03T14:33:28.460713Z",
+        "lastRenewedAt": "2026-01-02T14:33:45.446008Z",
+        "expiresAt": "2026-05-02T14:33:28.438510Z"
+      },
+      "created_at": "2026-01-02T14:33:45.446008Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220a45062ce6db64e539f497780f8d08b3c25bbabacfd5af22025da6240f27eb623",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220bc40f38cae44a8b4657211d17f3ba5f4c1242ff7f8c64ccc7bdcb763ba3c78e7:16",
+      "contract_id": "0098c80fa2b14179a7e1c8462dfec2edaffc7ee9e1a9b829568b65f7bce7acd19bca1212201d819674eb51b88d1c764fc00fe1433e54354c0aea3eea11890433bc52ddc83f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122034870b396400d2b94cb728e3eb196d4f9be8e92852f188b7a70d01a180768876",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-04T13:45:31.126484Z",
+        "lastRenewedAt": "2026-01-03T13:45:58.002767Z",
+        "expiresAt": "2026-05-03T13:45:31.080058Z"
+      },
+      "created_at": "2026-01-03T13:45:58.002767Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122034870b396400d2b94cb728e3eb196d4f9be8e92852f188b7a70d01a180768876",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12204a9dbdfd913801ce7e0a34e08e63b7561cb3ee35267a90f1a346ab920f0b4f39:11",
+      "contract_id": "005c8680f4e9116cbe562ac294d7b50961fa1009d2193b770909e3620002eaf0ddca12122027ccab8e91e153a06f821c6def4837c31c71afe54ad5969a89a8f434de085ac9",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122023971739d2ba407402fd837a2665ba76acc90f40f0401ae798f577d2cf78796d",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-04T15:25:06.285705Z",
+        "lastRenewedAt": "2026-01-03T15:25:37.749505Z",
+        "expiresAt": "2026-05-03T15:25:06.259923Z"
+      },
+      "created_at": "2026-01-03T15:25:37.749505Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122023971739d2ba407402fd837a2665ba76acc90f40f0401ae798f577d2cf78796d",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12203de502904cc76bfaff9b03821ce275b9369a19427409c6e222fc00e66d36f040:16",
+      "contract_id": "005489ea2f6fdd02d884396aae95c161854fef1b0a0432cfdbbcf89765b1518067ca121220a4526464d1272ada0bb1902a63dd6401e06ae7dc4296a791f84cab83a53a4298",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12200066178d5c3f723e2c0b5d4bc08f1c21473ead8667eb6548fdaf8fec4a2ca64e",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-04T15:28:06.695008Z",
+        "lastRenewedAt": "2026-01-03T15:28:37.920566Z",
+        "expiresAt": "2026-05-03T15:28:06.674387Z"
+      },
+      "created_at": "2026-01-03T15:28:37.920566Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12200066178d5c3f723e2c0b5d4bc08f1c21473ead8667eb6548fdaf8fec4a2ca64e",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220bb31ba5345e427dab64c66e36de87eb5255c2cedef8c6b83c62375a5ea54ea27:11",
+      "contract_id": "00f849ffb62454f96ed974d71a43499fbfb24f0da79866cff5eefcbafc66fe94baca1212205052bfbf8bb2a674826fce7a4e1be0f107a0e83bf360ecae11916a9b0f24092a",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220f5966fe7680f30cd0752d0171f1f26cc0e9eb0685dc040a5dbb5297954a97a8f",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-04T15:41:19.330834Z",
+        "lastRenewedAt": "2026-01-03T15:41:29.493394Z",
+        "expiresAt": "2026-05-03T15:41:19.308942Z"
+      },
+      "created_at": "2026-01-03T15:41:29.493394Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220f5966fe7680f30cd0752d0171f1f26cc0e9eb0685dc040a5dbb5297954a97a8f",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122033ecff8050bebca9179e230a5e3889e33dc935917822029c169b0c8d93055c96:11",
+      "contract_id": "00687628306e38d5b800f0cd51a0abebde66f0cc127addbe219bbd5a9760495502ca1212200202adeedb074c53571e6f41114996530e61832a6a699ad2804da11f7292f401",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220a05109882a9116a68b17ce11009fc965874e38a83b5fd15ea96e43a521e3a960",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-05T21:49:31.468672Z",
+        "lastRenewedAt": "2026-01-04T21:49:47.600499Z",
+        "expiresAt": "2026-05-04T21:49:31.431972Z"
+      },
+      "created_at": "2026-01-04T21:49:47.600499Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220a05109882a9116a68b17ce11009fc965874e38a83b5fd15ea96e43a521e3a960",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220afb697ac3e57419276544687f45b438136f47a8a347c69f4c8b2b6a003bcd124:11",
+      "contract_id": "00b5fb7fcd7fa1c73665046e159ba6426d25ac97292b4d7401fc297048f0f20ee0ca1212204563f1c14a140bf9aa27d36dab63927637f38113bfb22bf233bc609da7fe1129",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220edfd8abbe73a5c7c76a9320a79d902bfd1f691d775bc9a5c2ccf2a0e3018ecf5",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-05T21:56:35.594171Z",
+        "lastRenewedAt": "2026-01-04T21:56:45.158278Z",
+        "expiresAt": "2026-05-04T21:56:35.563794Z"
+      },
+      "created_at": "2026-01-04T21:56:45.158278Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220edfd8abbe73a5c7c76a9320a79d902bfd1f691d775bc9a5c2ccf2a0e3018ecf5",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220325e8f1ce072ed98525066c6c25ca8dc544c2e4b8c72788910628c2f587466a8:11",
+      "contract_id": "00d35fee787e5c97a9e66167ba5d6d6153ce705faf2dbe586b9a128a9222aba479ca1212209e6f3a17623eb1cacd8db400608a5e13f9dbd1442411ef6d85427dd3346a9e81",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12200ec050b97293f6af3cd2a04326595683a1ac4e8bef85ff8f37ea232fe6cdffeb",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-07T10:53:15.805383Z",
+        "lastRenewedAt": "2026-01-06T10:53:32.835196Z",
+        "expiresAt": "2026-05-06T10:53:15.787060Z"
+      },
+      "created_at": "2026-01-06T10:53:32.835196Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12200ec050b97293f6af3cd2a04326595683a1ac4e8bef85ff8f37ea232fe6cdffeb",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122073a0556c2f5df38cd909c78df2ceba8f0adecbb72cafad39b40a0eee9c3a6cdc:16",
+      "contract_id": "00e439118fde57041f679f69a2bdaee5d9e571e36fa082a0331433c85b6788078bca121220af15d1ab22fa69bef3ed1af9e2074dc7cd02bee9976f0bd5e47bc586d2071d3b",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12203c92cd9f95d7c4f2877fb925025b94eb2412676637bce94c48df99ac7b2b161f",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-07T15:09:10.058954Z",
+        "lastRenewedAt": "2026-01-06T15:09:16.285245Z",
+        "expiresAt": "2026-05-06T15:09:10.037617Z"
+      },
+      "created_at": "2026-01-06T15:09:16.285245Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12203c92cd9f95d7c4f2877fb925025b94eb2412676637bce94c48df99ac7b2b161f",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220664b740d0a8bc38c4533f5cd54d393dbfb930ff110f93fb32f26decc57db73d0:10",
+      "contract_id": "00978d909b3e3895f0f0228bf4e36744dcba894eefd9d77694018d1be7bc1adc20ca121220920098602294190a3cc9ad4537e1e4c3d98dde341f2a03a81cd4cc957ab01719",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220b2c1d018106e0028853c954e5ad8026c453d62d3585d1bdd617c2968ca6c492a",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-07T08:52:40.321102Z",
+        "lastRenewedAt": "2026-01-07T08:52:40.321102Z",
+        "expiresAt": "2026-04-07T08:52:40.302074Z"
+      },
+      "created_at": "2026-01-07T08:52:40.321102Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220b2c1d018106e0028853c954e5ad8026c453d62d3585d1bdd617c2968ca6c492a",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220e7d3d6adf32f287a9fa2b760adb3b48b7289283be90e7877a487b222e4b9690a:10",
+      "contract_id": "0031b1d60e5db00bedf776f66036dcb7ad1b56a7fb553e172e58792744e176bb66ca121220df77d82d23e38e0f15cebd874085e047669ecdad1644fe5607bf4cfaa259f5d4",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220d83b9d1d05db74fc0ea15a588bd3e111e8bed77b17a55f78fcf0134b6bf41aa7",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-12T10:24:59.225005Z",
+        "lastRenewedAt": "2026-01-12T10:24:59.225005Z",
+        "expiresAt": "2026-04-12T10:24:59.206378Z"
+      },
+      "created_at": "2026-01-12T10:24:59.225005Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220d83b9d1d05db74fc0ea15a588bd3e111e8bed77b17a55f78fcf0134b6bf41aa7",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220b478f1edb35be93fae91ec1643ce2e27471ccf47e8e798ae8c13c52a3c1ea594:10",
+      "contract_id": "007c35a1310ea8c638a45db697a15ecfef2a23c9d0c0680860f8fbbe937bc69aa5ca121220a6d653ca4959e47e15c17946d471e015acfb2bdc2da7db81ee008212f9393750",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220fb754bc6465ef7c5596db844befa6141dfd81665f25b9e71ab0ea85e8efe01a4",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-12T10:43:54.638594Z",
+        "lastRenewedAt": "2026-01-12T10:43:54.638594Z",
+        "expiresAt": "2026-04-12T10:43:54.616315Z"
+      },
+      "created_at": "2026-01-12T10:43:54.638594Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220fb754bc6465ef7c5596db844befa6141dfd81665f25b9e71ab0ea85e8efe01a4",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220aded963916f68c2f4b86345f385754d9bc124e8582a2796c5d4ccc5e41bcc320:10",
+      "contract_id": "007e7494049fcdd35c582d068f4de3f4a7ecc09ed8c2cd5d72bc0c2835a025d9e1ca121220a7d8281a480aee7ab9bf08dbfd8eefa6a463b7b74ac74ca24d76ac8cc2c51f4d",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::122092f3a17d773f78b2c0d01fec37fcac466434fd4d2dd20d8df3b88fff62087ffc",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-12T19:04:09.911226Z",
+        "lastRenewedAt": "2026-01-12T19:04:09.911226Z",
+        "expiresAt": "2026-04-12T19:04:09.883906Z"
+      },
+      "created_at": "2026-01-12T19:04:09.911226Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::122092f3a17d773f78b2c0d01fec37fcac466434fd4d2dd20d8df3b88fff62087ffc",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122017a81b2a9b8d0b2ecdb5d9cbec430c98765a4101aab33851d175d4b4c6e66fa8:11",
+      "contract_id": "009ffa504253c9e03f9686a102d1d47eefab7b36e9606d7cb6f9bcdd5c7e4b6b7fca121220be00c89219b310713d60c4a4661d981628063efdf54f376f9c15819f7af9d093",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220060bd2ae25363654a9e57f443ce28229e7df4a1062dd1739c28cbe8c057c779e",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-18T13:52:46.929152Z",
+        "lastRenewedAt": "2026-01-17T13:53:04.907574Z",
+        "expiresAt": "2026-05-17T13:52:46.883516Z"
+      },
+      "created_at": "2026-01-17T13:53:04.907574Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220060bd2ae25363654a9e57f443ce28229e7df4a1062dd1739c28cbe8c057c779e",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12202e6eb9d1f94330075eafae1d2b50caa14db746bad19e6ccec0987cbbd761a37e:11",
+      "contract_id": "003082175d7a51c9a8bc13a3162ffbec714b27ed597b91d3daf942ab0bbb0f64e0ca121220ca3071c7f84db9f1cb6cf7aba725deb2ad5130347431b491c2cca46a45a371af",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220d9baae834c3ce4cddeb8a207c5ff58cc28013edbdb00c87127af928b32007056",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-19T15:03:02.903491Z",
+        "lastRenewedAt": "2026-01-18T15:03:16.305108Z",
+        "expiresAt": "2026-05-18T15:03:02.880853Z"
+      },
+      "created_at": "2026-01-18T15:03:16.305108Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220d9baae834c3ce4cddeb8a207c5ff58cc28013edbdb00c87127af928b32007056",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220d21e2b858adc761269e2fb6205e52c77d280a72d1a4e3023b680774699c18b7a:10",
+      "contract_id": "00b829ab9ce0045f21edbb2fb6d185efeb092363be3e75c7e2c7c0c8e6a3d2f870ca1212201007781b0a8e4ad44c5237b15bd3e41e842ac38d47bbf6ff706470aa9e7cdd07",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220ed8d547cc379def17bec6e070f17d33283abd218642446b5831ad509bfe5970d",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-19T16:01:52.116220Z",
+        "lastRenewedAt": "2026-01-19T16:01:52.116220Z",
+        "expiresAt": "2026-04-19T16:01:52.097909Z"
+      },
+      "created_at": "2026-01-19T16:01:52.11622Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220ed8d547cc379def17bec6e070f17d33283abd218642446b5831ad509bfe5970d",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220388e071d3f131ac643c0329a50447f5c28477a98f00c1544683545349475dbb2:15",
+      "contract_id": "000e2e054ceb3051630b2e966876446bc2722851d24e377d5f0e3dcd48bf574e13ca121220c23c7bb2e7919987a2d190ecb983bb5a9001805a2f9d4a184710635ef4392545",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220463f179bb64185e0c3a7098e109829b2426ee94569e5aadd8baa60ffcb9cc0da",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-20T07:49:22.914915Z",
+        "lastRenewedAt": "2026-01-20T07:49:22.914915Z",
+        "expiresAt": "2026-04-20T07:49:22.893531Z"
+      },
+      "created_at": "2026-01-20T07:49:22.914915Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220463f179bb64185e0c3a7098e109829b2426ee94569e5aadd8baa60ffcb9cc0da",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122060ee35ac10202e7288047abe53f71460759be57c9ef210ff8d7e024def64c792:10",
+      "contract_id": "00480b10aee7eb074dff3e2b8e5a4b7db6e02e674b3060cd73dd89f96b15e5dbadca1212202baad9c4b17dcb96ff144d223db6bd77a59e5c55e8c6e6aa48e00bf55f5a4918",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220ee52c83972a4cc4553a4591b6c7820775e41cc61c921b5ba1693d6a967c44d0a",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-20T13:27:32.945567Z",
+        "lastRenewedAt": "2026-01-20T13:27:32.945567Z",
+        "expiresAt": "2026-04-20T13:27:32.924286Z"
+      },
+      "created_at": "2026-01-20T13:27:32.945567Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220ee52c83972a4cc4553a4591b6c7820775e41cc61c921b5ba1693d6a967c44d0a",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220ccafd7291e373bcd767645be370c7c868266971c2004c26ec8ff528847ea8132:15",
+      "contract_id": "004aa8b66ca862be3508bf3cea6e7b4c2c177561a83900286114e7331233cb5e89ca121220a0b335e3526d4a889c4f11b1f38fb62aed5d76ca3c914b031dd312dba4b9bcba",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12200f60f6b7a136664bead45b224f3226dd94fb58504b8506015149729395dd9840",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2026-01-20T13:30:33.283718Z",
+        "lastRenewedAt": "2026-01-20T13:30:33.283718Z",
+        "expiresAt": "2026-04-20T13:30:33.258059Z"
+      },
+      "created_at": "2026-01-20T13:30:33.283718Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12200f60f6b7a136664bead45b224f3226dd94fb58504b8506015149729395dd9840",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220d44ef40118050a8d15b03099b6ff19829b31004c5942584a0be213e186a15064:16",
+      "contract_id": "00cef1a97ac9a9a2ac36fd137835a6ac647a5e783f31a366f1ad2bcfc0befc16a4ca1212200dc652acd1333e7bdf5541f86e5bcc426890d79da81bbc576e7ca3ce05cb2668",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12207dda5f012213982aa2b16b47164410b180071b21739b2cbf004fa0db3e94c0f4",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-26T09:22:04.808158Z",
+        "lastRenewedAt": "2026-01-25T09:22:18.121851Z",
+        "expiresAt": "2026-05-25T09:22:04.775359Z"
+      },
+      "created_at": "2026-01-25T09:22:18.121851Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12207dda5f012213982aa2b16b47164410b180071b21739b2cbf004fa0db3e94c0f4",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220b7a82267d3d151409b3a4e06fa2c9dad5ce49f0cbb91b06d4b55810a1fbb9f1f:11",
+      "contract_id": "005dd28dad5f057f4fc61f1591325912c8069f6c7c02730a46f736cc7837cfb092ca121220b48b08a6a373e3449d9f8e3edb9c607f7dea06a0ae9417b27e8d428062cd4a8d",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::12204da035abdf60b52ab3005d678c251b3f9c06fce11b11dadb69b055f735af4ded",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-27T09:48:17.934920Z",
+        "lastRenewedAt": "2026-01-26T09:48:31.658793Z",
+        "expiresAt": "2026-05-26T09:48:17.914322Z"
+      },
+      "created_at": "2026-01-26T09:48:31.658793Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::12204da035abdf60b52ab3005d678c251b3f9c06fce11b11dadb69b055f735af4ded",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220c5018cef4d9ff0597c9b692163a0a48c5b5a69d5dd2ff3ea4c4fb66f98d985b4:11",
+      "contract_id": "00e13f83426a0ce4331981653a2af2103876e7b40bafd67d647fe4117033ca7299ca12122019af87ed893552431cf563c22cf54246b12cdc4a9b2544f1a75d37801d8f7caa",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.AmuletRules:TransferPreapproval",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "receiver": "ldg::1220d2f383f452fdd8bf54a2cfd4458da175d6cdaa29c69dae57ce0fed2e87daec93",
+        "provider": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "validFrom": "2025-11-28T11:00:02.288722Z",
+        "lastRenewedAt": "2026-01-27T11:00:33.711763Z",
+        "expiresAt": "2026-05-27T11:00:02.223945Z"
+      },
+      "created_at": "2026-01-27T11:00:33.711763Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ldg::1220d2f383f452fdd8bf54a2cfd4458da175d6cdaa29c69dae57ce0fed2e87daec93",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122039566da3b9c8d1a208fb966da3c193cb32919aef86daadf241fddbb524c0af25:3",
+      "contract_id": "00f9c3b21429f5f14e650b18379cc333dd4222ab11c405884fe049822aae2434efca121220d3495cf3f2a40fb9218b7a3c45685874ac89f5e59dc6fdb9530ae630e2349d98",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.ValidatorLicense:ValidatorLivenessActivityRecord",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "validator": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "round": {
+          "number": "81306"
+        }
+      },
+      "created_at": "2026-01-30T05:40:29.132083Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220423d5db532f1c470903bdc17d16bce14f2e0481e26f9701503a08b8cd63402ea:18",
+      "contract_id": "00a0f69fb87ca947662b0957e20a081ee3929b19c3abfebf6ac871c1ac1cf081f3ca12122043e8ba45b1a3304b15a746047cbccffdde3659b73520cdccbe5bc7d040361ee1",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.Amulet:SvRewardCoupon",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "sv": "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "beneficiary": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "round": {
+          "number": "81306"
+        },
+        "weight": "20000"
+      },
+      "created_at": "2026-01-30T05:41:19.529569Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220cad3b77b216777104488552f23e48a50d20eb7c0f0eae3d252a3369f91cb417d:3",
+      "contract_id": "000dd188ef5b4294227d5a4520f2b26ac218d585c19292c532a2f961a55c87f6fbca121220d8ae962ccfc44c13ee2187e3d1300a5aad3e6c9f7b6eb9fb3eb2f4c9365309ef",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.ValidatorLicense:ValidatorLivenessActivityRecord",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "validator": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "round": {
+          "number": "81307"
+        }
+      },
+      "created_at": "2026-01-30T05:48:31.205869Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220cad3b77b216777104488552f23e48a50d20eb7c0f0eae3d252a3369f91cb417d:2",
+      "contract_id": "00c22119bab9a0452d741023b2511c1e3dbe96b687d0cc0724bf00cfe8e9c675d0ca121220b0225e13d530b98c9f2b4dc55c48254feae530f46469acdb7fc80dc923c43d90",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.ValidatorLicense:ValidatorLicense",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "validator": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "sponsor": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "faucetState": {
+          "firstReceivedFor": {
+            "number": "67613"
+          },
+          "lastReceivedFor": {
+            "number": "81307"
+          },
+          "numCouponsMissed": "14"
+        },
+        "metadata": {
+          "lastUpdatedAt": "2026-01-29T09:31:38.681533Z",
+          "version": "0.5.5",
+          "contactPoint": ""
+        },
+        "lastActiveAt": "2026-01-30T05:48:31.205869Z"
+      },
+      "created_at": "2026-01-30T05:48:31.205869Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#12203a15ef36a24774410a1b63eb6793500e2c524b6dabc7d7d65c5a24bd9033fc1e:18",
+      "contract_id": "00ac01c55ab87f37a45d69b7c70a621e9e76c55fa20d36d589709b046a0435de58ca121220d03291cfd0674e472fc59957f5302aa7f94550036df441b2d6c6869b847f958e",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.Amulet:SvRewardCoupon",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "sv": "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "beneficiary": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "round": {
+          "number": "81307"
+        },
+        "weight": "20000"
+      },
+      "created_at": "2026-01-30T05:52:25.76341Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#1220409267ae8577bf5144e41440f12351e1ada5c4d08f7fc038db1a3d9394fda686:9",
+      "contract_id": "00c3b7418cfc46498e24bde12c0d4a86852e203f93909e6638c22f68e1804e10e3ca121220a097380b43c7054cb18056ea91190c01aeecc2a11d3c22f55814bc60cd6c7b5f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.Amulet:Amulet",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "owner": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "amount": {
+          "initialAmount": "1361296.3926166390",
+          "createdAt": {
+            "number": "81308"
+          },
+          "ratePerRound": {
+            "rate": "0.0001098709"
+          }
+        }
+      },
+      "created_at": "2026-01-30T05:58:26.350254Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    },
+    {
+      "event_type": "created_event",
+      "event_id": "#122065f555ce216694601fb0a241821e363050120b5b4d432139f2b50404ab490cc6:18",
+      "contract_id": "006292604f0565e922442496d29ac1643450cf1e0204da59f88bbdff1cf4c0b653ca121220aac8da32ded0ce7f62a342c84a26527b98d47489ec88a4968d7a213052f01f8c",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.Amulet:SvRewardCoupon",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "sv": "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "beneficiary": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "round": {
+          "number": "81308"
+        },
+        "weight": "20000"
+      },
+      "created_at": "2026-01-30T05:59:02.360848Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      ],
+      "observers": [
+        "Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ]
+    }
+  ],
+  "next_page_token": 1762302243
+}

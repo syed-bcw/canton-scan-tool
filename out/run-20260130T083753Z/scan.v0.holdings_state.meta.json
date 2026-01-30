@@ -1,0 +1,1 @@
+{"name":"scan.v0.holdings_state","cmd":"env PARTY_ID=Stamatix-validator-1::1220e7bb20449088b1a1bc66e350adf7539b3b5305cf66c7153032ce5091759082f5 MIGRATION_ID=4 RECORD_TIME=2026-01-30T06:00:00Z PAGE_SIZE=25 ./run_api.sh run scan.v0.holdings_state","exit_code":0,"valid_json":true,"stdout":"scan.v0.holdings_state.out","stderr":"scan.v0.holdings_state.stderr"}

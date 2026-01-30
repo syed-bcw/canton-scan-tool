@@ -1,0 +1,1 @@
+{"name":"scan.v0.dso","cmd":"./run_api.sh run scan.v0.dso","exit_code":35,"valid_json":false,"stdout":"scan.v0.dso.out","stderr":"scan.v0.dso.stderr"}

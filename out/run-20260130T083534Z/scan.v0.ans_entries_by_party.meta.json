@@ -1,0 +1,1 @@
+{"name":"scan.v0.ans_entries_by_party","cmd":"./run_api.sh run scan.v0.ans_entries_by_party -- flipside-validator-1::1220bf4169a874284cb202f33426a8cb0ef2cd6c506ece144d3b3bacae773bf479c0","exit_code":22,"valid_json":true,"stdout":"scan.v0.ans_entries_by_party.out","stderr":"scan.v0.ans_entries_by_party.stderr"}

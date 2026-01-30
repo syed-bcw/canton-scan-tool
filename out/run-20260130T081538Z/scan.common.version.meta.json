@@ -1,0 +1,1 @@
+{"name":"scan.common.version","cmd":"./run_api.sh run scan.common.version","exit_code":0,"valid_json":true,"stdout":"scan.common.version.out","stderr":"scan.common.version.stderr"}

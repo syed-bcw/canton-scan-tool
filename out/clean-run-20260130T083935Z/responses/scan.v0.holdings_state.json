@@ -1,0 +1,33 @@
+{
+  "record_time": "2026-01-30T06:00:00Z",
+  "migration_id": 4,
+  "created_events": [
+    {
+      "event_type": "created_event",
+      "event_id": "#1220409267ae8577bf5144e41440f12351e1ada5c4d08f7fc038db1a3d9394fda686:9",
+      "contract_id": "00c3b7418cfc46498e24bde12c0d4a86852e203f93909e6638c22f68e1804e10e3ca121220a097380b43c7054cb18056ea91190c01aeecc2a11d3c22f55814bc60cd6c7b5f",
+      "template_id": "3ca1343ab26b453d38c8adb70dca5f1ead8440c42b59b68f070786955cbf9ec1:Splice.Amulet:Amulet",
+      "package_name": "splice-amulet",
+      "create_arguments": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "owner": "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c",
+        "amount": {
+          "initialAmount": "1361296.3926166390",
+          "createdAt": {
+            "number": "81308"
+          },
+          "ratePerRound": {
+            "rate": "0.0001098709"
+          }
+        }
+      },
+      "created_at": "2026-01-30T05:58:26.350254Z",
+      "signatories": [
+        "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c"
+      ],
+      "observers": []
+    }
+  ],
+  "next_page_token": null
+}

@@ -1,0 +1,45 @@
+validator_licenses: 792
+next_page_token: 176267969
+
+Unique dso values:
+  - DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+
+Unique sponsor values (top 20):
+      396 Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529
+      168 Global-Synchronizer-Foundation::1220b0867964b602f2cc7ea61324a95f000f0060e735cfaf4f23f424fdab02c170ac
+       52 MPC-Holding-Inc::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b
+       49 Proof-Group-1::1220a0027410294266f712c1a4787d2dcb9be20b712486dca010d4d9cdbe3e809385
+       47 Five-North-1::1220520b6d396b91c4b13a1786bd5f317e4240001632d4a628c1c4f53a0b5165ba98
+       16 Cumberland-1::12201aa8a23046d5740c9edd58f7e820c83e7f5c58f25551f955f3252d3a04240860
+       13 Digital-Asset-1::1220a32c8c98a33fab1f7fac9f63790b22df62647c30ebc3b644dbdf2936fcc88419
+       13 Cumberland-2::1220120801da0994334c869a6db19d9321f3d5baf9e40377830a90c2af78658aede6
+       12 C7-Technology-Services-Limited::122027859595a9f295312977656425f2360813ce5a2681aadc7605d2e198dc82a877
+        7 Tradeweb-Markets-1::12203cd253ff9f6526c871dd6a9b3af8d1f0484ff0910e6cae75e9bcf76d1be5ff99
+        7 SV-Nodeops-Limited::1220734414a4b0658bb2be4caf33205e5a45bf8dc5207e3bfc769d361582dc72feef
+        3 Orb-1-LP::12201940c04b1021cfa95c162b1ceee4d1eb2f2c1fcf693168ab5f150aea427462c7
+        3 Orb-1-LP-1::122059e5d9c6036656bba13299bf959ed190fc51e2564024b9872ecd84001f87ea92
+        2 Liberty-City-Ventures::1220523d2914dc097ad13b87ff2ac68a65b13e201ae011f6381839fbcc7b00d3ea95
+        2 Liberty-City-Ventures-1::1220c8a81a9d60198fd67aa596f8af90cfe57f5966964427e32f2dab1570ad0d9a25
+        2 Digital-Asset-1::12203a616cd41a519d1950ffd4df0ced808cce3bea558d684296c007bb8e12d7f649
+
+Unique validator values (top 20):
+        1 zynk-cantor8-1::1220133b1a8f91bb0290821c7638586c4f60f9c6ec9f3484323acc3dd9587a68071d
+        1 zodia-interchange-1::1220bd5ba283d839548e531dc05beaa0a004912d47d7c04bf17c5d22049733dda191
+        1 ZodiaCustody-validator-1::122048dee6ac5d575890024dbf6847d1ca4026c96e8d4c6df07bb5b96a10ae180030
+        1 zodiacustody-interchangevalidator-1::12204c95de051a6a1f1c66ae0db1e21a19ec747ed9c3761881525fc316c4e12be740
+        1 ZodiaClientRef-validator-5::1220c29bb6820a3e4213629e506fb226fdd7d212cf86509181704c689069e7722d5b
+        1 ZodiaClientRef-validator-4::1220f2cc852f40908631e9112dc8912b14c76e1d0a1fd0db329873466347dfec3d15
+        1 ZodiaClientRef-validator-3::1220791d55fad6dab3d7ab43b7f89a944ef13de374adf34c824dffe0239485293e0b
+        1 ZodiaClientRef-validator-2::1220d3b2fce5fad8743dc56e6f1f486a7c011c1d1bb47b41f5224f58dc7b79350bcb
+        1 ZodiaClientRef-validator-1::12207299ed7d0a22104b7f27fa6fc518866b67d30bacf96a4474e013180bdce67130
+        1 zkpc-cantor8-1::1220faa06474101d63481154876239b77159a26e7301cfb45a0d540c1a675041f4ed
+        1 zerohash-validator-1::1220d02b9d8aae4fa3425f6c6a5eb7972d6b7add35ed91914fff13bf242eba7b87b0
+        1 Zenrock-mainnetValidator-1::12202580011e785e814a368f4d921627f9aa31a51546c6c8134b9f5eee8289c7a999
+        1 zeconomy-validator-1::1220a5d6b58c381aa83975f59862cb711fe38e4d612f627faba6eeefcea4c0f25e8a
+        1 zarcos-cantor8-1::122012ad4c64a35e4eacc4bfcf09e08f40adb7037378f24f4008b7f2ba8b76a648d2
+        1 z__app__prod__property__validator::122016a49a3f5b4525128439e09a929ccd7296a2eb80d2f65409d06fddf2d6fa4e8d
+        1 Zakdorn-validator-1::122069389e835a762469e8762eaaea5ba507f96bd182dc886286e75c546e9fac0efb
+        1 Yuce-validator-1::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd
+        1 YellowCard-Validator-1::1220393b39a08729c8cd220fdf39fdd7af8d55fbfe54b06351b7f8d69e55dcbbbbfa
+        1 YellowCard-Validator-1::1220360c852efee36a64f0ccfc94090ca44f001531b226058df0b310d3605421912e
+        1 Yakamoz-Research-1::1220e61192cf17e18f422fa676bfaf4178094eabb596c0874e17f04736dea536d7ae

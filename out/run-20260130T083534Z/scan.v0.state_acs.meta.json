@@ -1,0 +1,1 @@
+{"name":"scan.v0.state_acs","cmd":"env MIGRATION_ID=4 RECORD_TIME=2026-01-30T06:00:00Z PAGE_SIZE=50 PARTY_IDS=flipside-validator-1::1220bf4169a874284cb202f33426a8cb0ef2cd6c506ece144d3b3bacae773bf479c0 ./run_api.sh run scan.v0.state_acs","exit_code":0,"valid_json":true,"stdout":"scan.v0.state_acs.out","stderr":"scan.v0.state_acs.stderr"}

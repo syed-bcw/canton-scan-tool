@@ -1,0 +1,1 @@
+{"name":"scan.v0.ans_entries_by_party","cmd":"./run_api.sh run scan.v0.ans_entries_by_party -- MPCH-KLEOvalidator-1::1220b0bbba49b7507ff17d034091ccb4b07f725ff58199312dced0cff679d3570cd0","exit_code":0,"valid_json":true,"stdout":"scan.v0.ans_entries_by_party.out","stderr":"scan.v0.ans_entries_by_party.stderr"}

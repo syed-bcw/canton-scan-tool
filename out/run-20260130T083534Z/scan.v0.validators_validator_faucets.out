@@ -1,0 +1,3 @@
+{
+  "error" : "Fingerprint decoding of `10squared-validator-1::1220493880309e65da6cacbea0e98b58721a95af6a1957b22559569c9b73cb26d1d0,10squared-validator-1::12206c9dfe2e352cc208ccd1f7ae103832c4c0db6a7a19afc3e08f6f5ce519b22e9c,117a-mainnet-1::...` failed with: StringConversionError(Daml-LF Party is too long (max: 255),None)"
+}

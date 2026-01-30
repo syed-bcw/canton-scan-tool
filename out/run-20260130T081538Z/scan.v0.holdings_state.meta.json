@@ -1,0 +1,1 @@
+{"name":"scan.v0.holdings_state","cmd":"env PARTY_ID=MPCH-KLEOvalidator-1::1220b0bbba49b7507ff17d034091ccb4b07f725ff58199312dced0cff679d3570cd0 PAGE_SIZE=25 ./run_api.sh run scan.v0.holdings_state","exit_code":0,"valid_json":true,"stdout":"scan.v0.holdings_state.out","stderr":"scan.v0.holdings_state.stderr"}

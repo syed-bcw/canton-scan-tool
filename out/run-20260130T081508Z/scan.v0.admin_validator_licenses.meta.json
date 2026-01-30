@@ -1,0 +1,1 @@
+{"name":"scan.v0.admin_validator_licenses","cmd":"./run_api.sh run scan.v0.admin_validator_licenses","exit_code":0,"valid_json":true,"stdout":"scan.v0.admin_validator_licenses.out","stderr":"scan.v0.admin_validator_licenses.stderr"}

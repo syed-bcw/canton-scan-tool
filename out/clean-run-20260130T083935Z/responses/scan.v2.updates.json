@@ -1,0 +1,3084 @@
+{
+  "transactions": [
+    {
+      "update_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:08:34.404896Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:08:35.469232Z",
+      "root_event_ids": [
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:0",
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:1"
+      ],
+      "events_by_id": {
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:0": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:0",
+          "contract_id": "004234af78698904006524570eb719286a5bf315cb0d96ba5932011965d852d14dca101220ad98f22db71c629deb36391bbb555618b6c0a2bc43bb6e33c8e27d5f75c5c2c9",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoBootstrap:DsoBootstrap",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv1Party": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "sv1Name": "Digital-Asset-2",
+            "sv1RewardWeight": "140000",
+            "sv1ParticipantId": "PAR::Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "sv1SynchronizerNodes": [
+              [
+                "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                {
+                  "cometBft": {
+                    "nodes": [
+                      [
+                        "4c7c99516fb3309b89b7f8ed94690994c8ec0ab0",
+                        {
+                          "validatorPubKey": "H2bcJU2zbzbLmP78YWiwMgtB0QG1MNTSozGl1tP11hI=",
+                          "votingPower": "1"
+                        }
+                      ]
+                    ],
+                    "governanceKeys": [
+                      {
+                        "pubKey": "lTch1n0NyZfVPT7yEZTYarPqBOwkruWFitESbSPeDxQ="
+                      }
+                    ],
+                    "sequencingKeys": []
+                  },
+                  "sequencer": {
+                    "migrationId": "0",
+                    "sequencerId": "SEQ::Digital-Asset-2::1220a3c0448daaf57369955a2cb89c1a1821c77e930f29d24ff2851e2064b5e78cd4",
+                    "url": "https://sequencer-0.sv-2.global.canton.network.digitalasset.com",
+                    "availableAfter": "2024-06-24T21:08:35.335372Z"
+                  },
+                  "mediator": {
+                    "mediatorId": "MED::Digital-Asset-2::1220c61f342d3cab2635012ef73f043897f04786e96e0b3afeff00dd5a2f0971f902"
+                  },
+                  "scan": {
+                    "publicUrl": "https://scan.sv-2.global.canton.network.digitalasset.com"
+                  },
+                  "legacySequencerConfig": null
+                }
+              ]
+            ],
+            "round0Duration": {
+              "microseconds": "97200000000"
+            },
+            "amuletConfig": {
+              "transferConfig": {
+                "createFee": {
+                  "fee": "0.0300000000"
+                },
+                "holdingFee": {
+                  "rate": "0.0000190259"
+                },
+                "transferFee": {
+                  "initialRate": "0.0100000000",
+                  "steps": [
+                    {
+                      "_1": "100.0000000000",
+                      "_2": "0.0010000000"
+                    },
+                    {
+                      "_1": "1000.0000000000",
+                      "_2": "0.0001000000"
+                    },
+                    {
+                      "_1": "1000000.0000000000",
+                      "_2": "0.0000100000"
+                    }
+                  ]
+                },
+                "lockHolderFee": {
+                  "fee": "0.0050000000"
+                },
+                "extraFeaturedAppRewardAmount": "1.0000000000",
+                "maxNumInputs": "100",
+                "maxNumOutputs": "100",
+                "maxNumLockHolders": "50"
+              },
+              "issuanceCurve": {
+                "initialValue": {
+                  "amuletToIssuePerYear": "40000000000.0000000000",
+                  "validatorRewardPercentage": "0.0500000000",
+                  "appRewardPercentage": "0.1500000000",
+                  "validatorRewardCap": "0.2000000000",
+                  "featuredAppRewardCap": "100.0000000000",
+                  "unfeaturedAppRewardCap": "0.6000000000",
+                  "optValidatorFaucetCap": "2.8500000000"
+                },
+                "futureValues": [
+                  {
+                    "_1": {
+                      "microseconds": "15768000000000"
+                    },
+                    "_2": {
+                      "amuletToIssuePerYear": "20000000000.0000000000",
+                      "validatorRewardPercentage": "0.1200000000",
+                      "appRewardPercentage": "0.4000000000",
+                      "validatorRewardCap": "0.2000000000",
+                      "featuredAppRewardCap": "100.0000000000",
+                      "unfeaturedAppRewardCap": "0.6000000000",
+                      "optValidatorFaucetCap": "2.8500000000"
+                    }
+                  },
+                  {
+                    "_1": {
+                      "microseconds": "47304000000000"
+                    },
+                    "_2": {
+                      "amuletToIssuePerYear": "10000000000.0000000000",
+                      "validatorRewardPercentage": "0.1800000000",
+                      "appRewardPercentage": "0.6200000000",
+                      "validatorRewardCap": "0.2000000000",
+                      "featuredAppRewardCap": "100.0000000000",
+                      "unfeaturedAppRewardCap": "0.6000000000",
+                      "optValidatorFaucetCap": "2.8500000000"
+                    }
+                  },
+                  {
+                    "_1": {
+                      "microseconds": "157680000000000"
+                    },
+                    "_2": {
+                      "amuletToIssuePerYear": "5000000000.0000000000",
+                      "validatorRewardPercentage": "0.2100000000",
+                      "appRewardPercentage": "0.6900000000",
+                      "validatorRewardCap": "0.2000000000",
+                      "featuredAppRewardCap": "100.0000000000",
+                      "unfeaturedAppRewardCap": "0.6000000000",
+                      "optValidatorFaucetCap": "2.8500000000"
+                    }
+                  },
+                  {
+                    "_1": {
+                      "microseconds": "315360000000000"
+                    },
+                    "_2": {
+                      "amuletToIssuePerYear": "2500000000.0000000000",
+                      "validatorRewardPercentage": "0.2000000000",
+                      "appRewardPercentage": "0.7500000000",
+                      "validatorRewardCap": "0.2000000000",
+                      "featuredAppRewardCap": "100.0000000000",
+                      "unfeaturedAppRewardCap": "0.6000000000",
+                      "optValidatorFaucetCap": "2.8500000000"
+                    }
+                  }
+                ]
+              },
+              "decentralizedSynchronizer": {
+                "requiredSynchronizers": {
+                  "map": [
+                    [
+                      "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                      {}
+                    ]
+                  ]
+                },
+                "activeSynchronizer": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                "fees": {
+                  "baseRateTrafficLimits": {
+                    "burstAmount": "200000",
+                    "burstWindow": {
+                      "microseconds": "1200000000"
+                    }
+                  },
+                  "extraTrafficPrice": "16.6700000000",
+                  "readVsWriteScalingFactor": "4",
+                  "minTopupAmount": "200000"
+                }
+              },
+              "tickDuration": {
+                "microseconds": "600000000"
+              },
+              "packageConfig": {
+                "amulet": "0.1.2",
+                "amuletNameService": "0.1.2",
+                "dsoGovernance": "0.1.3",
+                "validatorLifecycle": "0.1.0",
+                "wallet": "0.1.2",
+                "walletPayments": "0.1.2"
+              },
+              "transferPreapprovalFee": null,
+              "featuredAppActivityMarkerAmount": null
+            },
+            "amuletPrice": "0.0050000000",
+            "ansRulesConfig": {
+              "renewalDuration": {
+                "microseconds": "2592000000000"
+              },
+              "entryLifetime": {
+                "microseconds": "7776000000000"
+              },
+              "entryFee": "1.0000000000",
+              "descriptionPrefix": "CNS entry: "
+            },
+            "config": {
+              "numUnclaimedRewardsThreshold": "10",
+              "numMemberTrafficContractsThreshold": "5",
+              "actionConfirmationTimeout": {
+                "microseconds": "3600000000"
+              },
+              "svOnboardingRequestTimeout": {
+                "microseconds": "3600000000"
+              },
+              "svOnboardingConfirmedTimeout": {
+                "microseconds": "3600000000"
+              },
+              "voteRequestTimeout": {
+                "microseconds": "604800000000"
+              },
+              "dsoDelegateInactiveTimeout": {
+                "microseconds": "70000000"
+              },
+              "synchronizerNodeConfigLimits": {
+                "cometBft": {
+                  "maxNumCometBftNodes": "2",
+                  "maxNumGovernanceKeys": "2",
+                  "maxNumSequencingKeys": "2",
+                  "maxNodeIdLength": "50",
+                  "maxPubKeyLength": "256"
+                }
+              },
+              "maxTextLength": "1024",
+              "decentralizedSynchronizer": {
+                "synchronizers": [
+                  [
+                    "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                    {
+                      "state": "DS_Operational",
+                      "cometBftGenesisJson": "TODO(#4900): share CometBFT genesis.json of founding SV node via DsoRules config.",
+                      "acsCommitmentReconciliationInterval": null
+                    }
+                  ]
+                ],
+                "lastSynchronizerId": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                "activeSynchronizerId": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+              },
+              "nextScheduledSynchronizerUpgrade": null,
+              "voteCooldownTime": null
+            },
+            "initialTrafficState": [
+              [
+                "MED::Digital-Asset-2::1220c61f342d3cab2635012ef73f043897f04786e96e0b3afeff00dd5a2f0971f902",
+                {
+                  "consumedTraffic": "0"
+                }
+              ],
+              [
+                "PAR::Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+                {
+                  "consumedTraffic": "0"
+                }
+              ]
+            ],
+            "isDevNet": false,
+            "initialRound": null
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:1",
+          "contract_id": "004234af78698904006524570eb719286a5bf315cb0d96ba5932011965d852d14dca101220ad98f22db71c629deb36391bbb555618b6c0a2bc43bb6e33c8e27d5f75c5c2c9",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoBootstrap:DsoBootstrap",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoBootstrap_Bootstrap",
+          "choice_argument": {},
+          "child_event_ids": [
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:2",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:3",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:4",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:8",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:9",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:10",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:11",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:12"
+          ],
+          "exercise_result": "DsoBootstrap_BootstrapResult",
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:10": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:10",
+          "contract_id": "00013c4d0df859f23842616633c7aa62b87b13f22ddba440913a8390c3ea37c544ca1012208f0c4500f8f3b552ae967365d7909f7d6fb339eb4a0f6fe58899d4f52b1189b5",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.AmuletPrice:AmuletPriceVote",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "amuletPrice": "0.0050000000",
+            "lastUpdatedAt": "2024-06-24T21:08:35.469232Z"
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:11": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:11",
+          "contract_id": "008042769ac6fa64bedfed016ba51babaa58737923245c0711f045747fa6a18648ca1012202dd503e99d88b28b0b21ba51b7a94ece1d1d3782e7e76ff033c4b566e46fd6e8",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "0",
+            "status": null
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:12": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:12",
+          "contract_id": "00f85b5fdfb9edf375b9db109c0f1f31529f3dae36f49bf510ecd6ab83822f8732ca1012209814424edf401f362e86663b6c83037910a9a3b49ad1568f70468d8e5bb05b1e",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvNodeState",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "state": {
+              "synchronizerNodes": [
+                [
+                  "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                  {
+                    "cometBft": {
+                      "nodes": [
+                        [
+                          "4c7c99516fb3309b89b7f8ed94690994c8ec0ab0",
+                          {
+                            "validatorPubKey": "H2bcJU2zbzbLmP78YWiwMgtB0QG1MNTSozGl1tP11hI=",
+                            "votingPower": "1"
+                          }
+                        ]
+                      ],
+                      "governanceKeys": [
+                        {
+                          "pubKey": "lTch1n0NyZfVPT7yEZTYarPqBOwkruWFitESbSPeDxQ="
+                        }
+                      ],
+                      "sequencingKeys": []
+                    },
+                    "sequencer": {
+                      "migrationId": "0",
+                      "sequencerId": "SEQ::Digital-Asset-2::1220a3c0448daaf57369955a2cb89c1a1821c77e930f29d24ff2851e2064b5e78cd4",
+                      "url": "https://sequencer-0.sv-2.global.canton.network.digitalasset.com",
+                      "availableAfter": "2024-06-24T21:08:35.335372Z"
+                    },
+                    "mediator": {
+                      "mediatorId": "MED::Digital-Asset-2::1220c61f342d3cab2635012ef73f043897f04786e96e0b3afeff00dd5a2f0971f902"
+                    },
+                    "scan": {
+                      "publicUrl": "https://scan.sv-2.global.canton.network.digitalasset.com"
+                    },
+                    "legacySequencerConfig": null
+                  }
+                ]
+              ]
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:2": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:2",
+          "contract_id": "001ac81bea8708d5a5a8bbd42dbcf17df02af81044a09e98f80585f64a9686ef58ca101220cc6739f21cb85388668b69a6bdbe4b563b5893e65ef1cb4040d758b32a96c52e",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.AmuletRules:AmuletRules",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "configSchedule": {
+              "initialValue": {
+                "transferConfig": {
+                  "createFee": {
+                    "fee": "0.0300000000"
+                  },
+                  "holdingFee": {
+                    "rate": "0.0000190259"
+                  },
+                  "transferFee": {
+                    "initialRate": "0.0100000000",
+                    "steps": [
+                      {
+                        "_1": "100.0000000000",
+                        "_2": "0.0010000000"
+                      },
+                      {
+                        "_1": "1000.0000000000",
+                        "_2": "0.0001000000"
+                      },
+                      {
+                        "_1": "1000000.0000000000",
+                        "_2": "0.0000100000"
+                      }
+                    ]
+                  },
+                  "lockHolderFee": {
+                    "fee": "0.0050000000"
+                  },
+                  "extraFeaturedAppRewardAmount": "1.0000000000",
+                  "maxNumInputs": "100",
+                  "maxNumOutputs": "100",
+                  "maxNumLockHolders": "50"
+                },
+                "issuanceCurve": {
+                  "initialValue": {
+                    "amuletToIssuePerYear": "40000000000.0000000000",
+                    "validatorRewardPercentage": "0.0500000000",
+                    "appRewardPercentage": "0.1500000000",
+                    "validatorRewardCap": "0.2000000000",
+                    "featuredAppRewardCap": "100.0000000000",
+                    "unfeaturedAppRewardCap": "0.6000000000",
+                    "optValidatorFaucetCap": "2.8500000000"
+                  },
+                  "futureValues": [
+                    {
+                      "_1": {
+                        "microseconds": "15768000000000"
+                      },
+                      "_2": {
+                        "amuletToIssuePerYear": "20000000000.0000000000",
+                        "validatorRewardPercentage": "0.1200000000",
+                        "appRewardPercentage": "0.4000000000",
+                        "validatorRewardCap": "0.2000000000",
+                        "featuredAppRewardCap": "100.0000000000",
+                        "unfeaturedAppRewardCap": "0.6000000000",
+                        "optValidatorFaucetCap": "2.8500000000"
+                      }
+                    },
+                    {
+                      "_1": {
+                        "microseconds": "47304000000000"
+                      },
+                      "_2": {
+                        "amuletToIssuePerYear": "10000000000.0000000000",
+                        "validatorRewardPercentage": "0.1800000000",
+                        "appRewardPercentage": "0.6200000000",
+                        "validatorRewardCap": "0.2000000000",
+                        "featuredAppRewardCap": "100.0000000000",
+                        "unfeaturedAppRewardCap": "0.6000000000",
+                        "optValidatorFaucetCap": "2.8500000000"
+                      }
+                    },
+                    {
+                      "_1": {
+                        "microseconds": "157680000000000"
+                      },
+                      "_2": {
+                        "amuletToIssuePerYear": "5000000000.0000000000",
+                        "validatorRewardPercentage": "0.2100000000",
+                        "appRewardPercentage": "0.6900000000",
+                        "validatorRewardCap": "0.2000000000",
+                        "featuredAppRewardCap": "100.0000000000",
+                        "unfeaturedAppRewardCap": "0.6000000000",
+                        "optValidatorFaucetCap": "2.8500000000"
+                      }
+                    },
+                    {
+                      "_1": {
+                        "microseconds": "315360000000000"
+                      },
+                      "_2": {
+                        "amuletToIssuePerYear": "2500000000.0000000000",
+                        "validatorRewardPercentage": "0.2000000000",
+                        "appRewardPercentage": "0.7500000000",
+                        "validatorRewardCap": "0.2000000000",
+                        "featuredAppRewardCap": "100.0000000000",
+                        "unfeaturedAppRewardCap": "0.6000000000",
+                        "optValidatorFaucetCap": "2.8500000000"
+                      }
+                    }
+                  ]
+                },
+                "decentralizedSynchronizer": {
+                  "requiredSynchronizers": {
+                    "map": [
+                      [
+                        "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                        {}
+                      ]
+                    ]
+                  },
+                  "activeSynchronizer": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                  "fees": {
+                    "baseRateTrafficLimits": {
+                      "burstAmount": "200000",
+                      "burstWindow": {
+                        "microseconds": "1200000000"
+                      }
+                    },
+                    "extraTrafficPrice": "16.6700000000",
+                    "readVsWriteScalingFactor": "4",
+                    "minTopupAmount": "200000"
+                  }
+                },
+                "tickDuration": {
+                  "microseconds": "600000000"
+                },
+                "packageConfig": {
+                  "amulet": "0.1.2",
+                  "amuletNameService": "0.1.2",
+                  "dsoGovernance": "0.1.3",
+                  "validatorLifecycle": "0.1.0",
+                  "wallet": "0.1.2",
+                  "walletPayments": "0.1.2"
+                },
+                "transferPreapprovalFee": null,
+                "featuredAppActivityMarkerAmount": null
+              },
+              "futureValues": []
+            },
+            "isDevNet": false
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:3": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:3",
+          "contract_id": "0037d8ad0926ece81811f172cf21bf01bca52d5daf80d144711951710abdd3d01aca1012204bc1a08c043216f70671621c41d6913f6bf1164fa6cd6e23bfb015ed08bf5447",
+          "template_id": "711a2974d65e6ebd149704da75f3f71234798687ab895b92f066c865dbdeeabb:Splice.Ans:AnsRules",
+          "package_name": "splice-amulet-name-service",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "config": {
+              "renewalDuration": {
+                "microseconds": "2592000000000"
+              },
+              "entryLifetime": {
+                "microseconds": "7776000000000"
+              },
+              "entryFee": "1.0000000000",
+              "descriptionPrefix": "CNS entry: "
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:4": {
+          "event_type": "exercised_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:4",
+          "contract_id": "001ac81bea8708d5a5a8bbd42dbcf17df02af81044a09e98f80585f64a9686ef58ca101220cc6739f21cb85388668b69a6bdbe4b563b5893e65ef1cb4040d758b32a96c52e",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.AmuletRules:AmuletRules",
+          "package_name": "splice-amulet",
+          "choice": "AmuletRules_Bootstrap_Rounds",
+          "choice_argument": {
+            "amuletPrice": "0.0050000000",
+            "round0Duration": {
+              "microseconds": "97200000000"
+            },
+            "initialRound": null
+          },
+          "child_event_ids": [
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:5",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:6",
+            "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:7"
+          ],
+          "exercise_result": {
+            "openMiningRoundCid": "00071ee404694cffb000cacee79965cde3c160eb36cb8ee83ebcd60b89e7f4a7f5ca101220ca4ab071aa4fbfd4c5e977f3000afa66167700b1bb64275563dce169f0a34b9d",
+            "initialRound": null
+          },
+          "consuming": false,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:5": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:5",
+          "contract_id": "002378cc2df5a95eb010a6ddea86befa6299b221948ae619272f71ff27534365f3ca1012208558039ea67e1f16d1f292cfc289dd634ee764892e225396fcb768d3653288c7",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.Round:OpenMiningRound",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "round": {
+              "number": "0"
+            },
+            "amuletPrice": "0.0050000000",
+            "opensAt": "2024-06-24T21:08:35.469232Z",
+            "targetClosesAt": "2024-06-26T00:08:35.469232Z",
+            "issuingFor": {
+              "microseconds": "0"
+            },
+            "transferConfigUsd": {
+              "createFee": {
+                "fee": "0.0300000000"
+              },
+              "holdingFee": {
+                "rate": "0.0000190259"
+              },
+              "transferFee": {
+                "initialRate": "0.0100000000",
+                "steps": [
+                  {
+                    "_1": "100.0000000000",
+                    "_2": "0.0010000000"
+                  },
+                  {
+                    "_1": "1000.0000000000",
+                    "_2": "0.0001000000"
+                  },
+                  {
+                    "_1": "1000000.0000000000",
+                    "_2": "0.0000100000"
+                  }
+                ]
+              },
+              "lockHolderFee": {
+                "fee": "0.0050000000"
+              },
+              "extraFeaturedAppRewardAmount": "1.0000000000",
+              "maxNumInputs": "100",
+              "maxNumOutputs": "100",
+              "maxNumLockHolders": "50"
+            },
+            "issuanceConfig": {
+              "amuletToIssuePerYear": "40000000000.0000000000",
+              "validatorRewardPercentage": "0.0500000000",
+              "appRewardPercentage": "0.1500000000",
+              "validatorRewardCap": "0.2000000000",
+              "featuredAppRewardCap": "100.0000000000",
+              "unfeaturedAppRewardCap": "0.6000000000",
+              "optValidatorFaucetCap": "2.8500000000"
+            },
+            "tickDuration": {
+              "microseconds": "600000000"
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:6": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:6",
+          "contract_id": "0023c28cd5bfac3b2f349fe9ac2910e0718a23ff1b7782d40d7e04e92ad4c3c987ca101220cf3b6b824cd78e67a5bc71e49bd33e836c91f4daef301703c98922fb193ecca1",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.Round:OpenMiningRound",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "round": {
+              "number": "1"
+            },
+            "amuletPrice": "0.0050000000",
+            "opensAt": "2024-06-24T21:08:35.469232Z",
+            "targetClosesAt": "2024-06-26T00:18:35.469232Z",
+            "issuingFor": {
+              "microseconds": "600000000"
+            },
+            "transferConfigUsd": {
+              "createFee": {
+                "fee": "0.0300000000"
+              },
+              "holdingFee": {
+                "rate": "0.0000190259"
+              },
+              "transferFee": {
+                "initialRate": "0.0100000000",
+                "steps": [
+                  {
+                    "_1": "100.0000000000",
+                    "_2": "0.0010000000"
+                  },
+                  {
+                    "_1": "1000.0000000000",
+                    "_2": "0.0001000000"
+                  },
+                  {
+                    "_1": "1000000.0000000000",
+                    "_2": "0.0000100000"
+                  }
+                ]
+              },
+              "lockHolderFee": {
+                "fee": "0.0050000000"
+              },
+              "extraFeaturedAppRewardAmount": "1.0000000000",
+              "maxNumInputs": "100",
+              "maxNumOutputs": "100",
+              "maxNumLockHolders": "50"
+            },
+            "issuanceConfig": {
+              "amuletToIssuePerYear": "40000000000.0000000000",
+              "validatorRewardPercentage": "0.0500000000",
+              "appRewardPercentage": "0.1500000000",
+              "validatorRewardCap": "0.2000000000",
+              "featuredAppRewardCap": "100.0000000000",
+              "unfeaturedAppRewardCap": "0.6000000000",
+              "optValidatorFaucetCap": "2.8500000000"
+            },
+            "tickDuration": {
+              "microseconds": "600000000"
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:7": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:7",
+          "contract_id": "00071ee404694cffb000cacee79965cde3c160eb36cb8ee83ebcd60b89e7f4a7f5ca101220ca4ab071aa4fbfd4c5e977f3000afa66167700b1bb64275563dce169f0a34b9d",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.Round:OpenMiningRound",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "round": {
+              "number": "2"
+            },
+            "amuletPrice": "0.0050000000",
+            "opensAt": "2024-06-26T00:08:35.469232Z",
+            "targetClosesAt": "2024-06-26T00:28:35.469232Z",
+            "issuingFor": {
+              "microseconds": "1200000000"
+            },
+            "transferConfigUsd": {
+              "createFee": {
+                "fee": "0.0300000000"
+              },
+              "holdingFee": {
+                "rate": "0.0000190259"
+              },
+              "transferFee": {
+                "initialRate": "0.0100000000",
+                "steps": [
+                  {
+                    "_1": "100.0000000000",
+                    "_2": "0.0010000000"
+                  },
+                  {
+                    "_1": "1000.0000000000",
+                    "_2": "0.0001000000"
+                  },
+                  {
+                    "_1": "1000000.0000000000",
+                    "_2": "0.0000100000"
+                  }
+                ]
+              },
+              "lockHolderFee": {
+                "fee": "0.0050000000"
+              },
+              "extraFeaturedAppRewardAmount": "1.0000000000",
+              "maxNumInputs": "100",
+              "maxNumOutputs": "100",
+              "maxNumLockHolders": "50"
+            },
+            "issuanceConfig": {
+              "amuletToIssuePerYear": "40000000000.0000000000",
+              "validatorRewardPercentage": "0.0500000000",
+              "appRewardPercentage": "0.1500000000",
+              "validatorRewardCap": "0.2000000000",
+              "featuredAppRewardCap": "100.0000000000",
+              "unfeaturedAppRewardCap": "0.6000000000",
+              "optValidatorFaucetCap": "2.8500000000"
+            },
+            "tickDuration": {
+              "microseconds": "600000000"
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:8": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:8",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "epoch": "0",
+            "svs": [
+              [
+                "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+                {
+                  "name": "Digital-Asset-2",
+                  "joinedAsOfRound": {
+                    "number": "0"
+                  },
+                  "svRewardWeight": "140000",
+                  "participantId": "PAR::Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+                }
+              ]
+            ],
+            "offboardedSvs": [],
+            "dsoDelegate": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "config": {
+              "numUnclaimedRewardsThreshold": "10",
+              "numMemberTrafficContractsThreshold": "5",
+              "actionConfirmationTimeout": {
+                "microseconds": "3600000000"
+              },
+              "svOnboardingRequestTimeout": {
+                "microseconds": "3600000000"
+              },
+              "svOnboardingConfirmedTimeout": {
+                "microseconds": "3600000000"
+              },
+              "voteRequestTimeout": {
+                "microseconds": "604800000000"
+              },
+              "dsoDelegateInactiveTimeout": {
+                "microseconds": "70000000"
+              },
+              "synchronizerNodeConfigLimits": {
+                "cometBft": {
+                  "maxNumCometBftNodes": "2",
+                  "maxNumGovernanceKeys": "2",
+                  "maxNumSequencingKeys": "2",
+                  "maxNodeIdLength": "50",
+                  "maxPubKeyLength": "256"
+                }
+              },
+              "maxTextLength": "1024",
+              "decentralizedSynchronizer": {
+                "synchronizers": [
+                  [
+                    "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                    {
+                      "state": "DS_Operational",
+                      "cometBftGenesisJson": "TODO(#4900): share CometBFT genesis.json of founding SV node via DsoRules config.",
+                      "acsCommitmentReconciliationInterval": null
+                    }
+                  ]
+                ],
+                "lastSynchronizerId": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+                "activeSynchronizerId": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+              },
+              "nextScheduledSynchronizerUpgrade": null,
+              "voteCooldownTime": null
+            },
+            "initialTrafficState": [
+              [
+                "MED::Digital-Asset-2::1220c61f342d3cab2635012ef73f043897f04786e96e0b3afeff00dd5a2f0971f902",
+                {
+                  "consumedTraffic": "0"
+                }
+              ],
+              [
+                "PAR::Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+                {
+                  "consumedTraffic": "0"
+                }
+              ]
+            ],
+            "isDevNet": false
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:9": {
+          "event_type": "created_event",
+          "event_id": "1220c7d293ea23275dcc7bfef9d47fa10e76477d26c93db4074ee5dff5e2cd8a5680:9",
+          "contract_id": "005cdbb5850aa1d14e8b4a7d4db75c68a845f681cd70ad44c43ba63105b061b1a6ca101220f82714fedf857f0e3d10f50dfd299093e5a3285f267f05caa4b3d10e8d623bd7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvRewardState",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "svName": "Digital-Asset-2",
+            "state": {
+              "numRoundsMissed": "0",
+              "numRoundsCollected": "0",
+              "lastRoundCollected": {
+                "number": "-1"
+              },
+              "numCouponsIssued": "0"
+            }
+          },
+          "created_at": "2024-06-24T21:08:35.469232Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:08:38.095792Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:08:38.982435Z",
+      "root_event_ids": [
+        "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:0"
+      ],
+      "events_by_id": {
+        "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:0": {
+          "event_type": "exercised_event",
+          "event_id": "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "008042769ac6fa64bedfed016ba51babaa58737923245c0711f045747fa6a18648ca1012202dd503e99d88b28b0b21ba51b7a94ece1d1d3782e7e76ff033c4b566e46fd6e8",
+            "status": {
+              "createdAt": "2024-06-24T21:08:38.969653Z",
+              "cometBftHeight": "88",
+              "mediatorSynchronizerTime": "2024-06-24T21:08:37.809483Z",
+              "participantSynchronizerTime": "2024-06-24T21:08:37.809483Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:1",
+            "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:2"
+          ],
+          "exercise_result": {
+            "newReport": "004a4e28c8b7872d4af6d786dcd06bd39a5c4897f6afbf4ab1371a840ffdcd41f2ca10122005ff4d1e3e47c13fcccad576e1ab6099817577e41b6ffd3c487842f4ede24c31"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:1": {
+          "event_type": "exercised_event",
+          "event_id": "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:1",
+          "contract_id": "008042769ac6fa64bedfed016ba51babaa58737923245c0711f045747fa6a18648ca1012202dd503e99d88b28b0b21ba51b7a94ece1d1d3782e7e76ff033c4b566e46fd6e8",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:2": {
+          "event_type": "created_event",
+          "event_id": "12208183d45ea00abaf2dbfd442803a45660f0f65886333bf0bcb8e758e38c495327:2",
+          "contract_id": "004a4e28c8b7872d4af6d786dcd06bd39a5c4897f6afbf4ab1371a840ffdcd41f2ca10122005ff4d1e3e47c13fcccad576e1ab6099817577e41b6ffd3c487842f4ede24c31",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "1",
+            "status": {
+              "createdAt": "2024-06-24T21:08:38.969653Z",
+              "cometBftHeight": "88",
+              "mediatorSynchronizerTime": "2024-06-24T21:08:37.809483Z",
+              "participantSynchronizerTime": "2024-06-24T21:08:37.809483Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:08:38.982435Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:08:38.095793Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:08:38.964148Z",
+      "root_event_ids": [
+        "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:0"
+      ],
+      "events_by_id": {
+        "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:0": {
+          "event_type": "exercised_event",
+          "event_id": "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_ReceiveSvRewardCoupon",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "openRoundCid": "002378cc2df5a95eb010a6ddea86befa6299b221948ae619272f71ff27534365f3ca1012208558039ea67e1f16d1f292cfc289dd634ee764892e225396fcb768d3653288c7",
+            "rewardStateCid": "005cdbb5850aa1d14e8b4a7d4db75c68a845f681cd70ad44c43ba63105b061b1a6ca101220f82714fedf857f0e3d10f50dfd299093e5a3285f267f05caa4b3d10e8d623bd7",
+            "beneficiaries": [
+              {
+                "_1": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+                "_2": "140000"
+              }
+            ]
+          },
+          "child_event_ids": [
+            "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:1",
+            "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:2",
+            "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:3"
+          ],
+          "exercise_result": {
+            "svRewardState": "002aa8d63cb029666ea96c982ef12f59a470557b18a845122803ef77ce046e6804ca10122033f07fc7dcc5a863c9c5309d850f5eca1a223ec6d608cb3ecdab96ee0971d1f3",
+            "svRewardCoupons": [
+              "008f8ca2124ae743da4156e9004c73f8b381618dc952ea5fb250b9ad8b2ba92fcdca10122080816ca8302be55ab2d3d753ad6117947128f254e4a057b781ddd6e265e2668b"
+            ]
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:1": {
+          "event_type": "exercised_event",
+          "event_id": "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:1",
+          "contract_id": "005cdbb5850aa1d14e8b4a7d4db75c68a845f681cd70ad44c43ba63105b061b1a6ca101220f82714fedf857f0e3d10f50dfd299093e5a3285f267f05caa4b3d10e8d623bd7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvRewardState",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:2": {
+          "event_type": "created_event",
+          "event_id": "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:2",
+          "contract_id": "002aa8d63cb029666ea96c982ef12f59a470557b18a845122803ef77ce046e6804ca10122033f07fc7dcc5a863c9c5309d850f5eca1a223ec6d608cb3ecdab96ee0971d1f3",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvRewardState",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "svName": "Digital-Asset-2",
+            "state": {
+              "numRoundsMissed": "0",
+              "numRoundsCollected": "1",
+              "lastRoundCollected": {
+                "number": "0"
+              },
+              "numCouponsIssued": "1"
+            }
+          },
+          "created_at": "2024-06-24T21:08:38.964148Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:3": {
+          "event_type": "created_event",
+          "event_id": "12208ea99da09ffd1daf5a5c6cabbf77cdec3f2980116cb9cbb53f4f559343053090:3",
+          "contract_id": "008f8ca2124ae743da4156e9004c73f8b381618dc952ea5fb250b9ad8b2ba92fcdca10122080816ca8302be55ab2d3d753ad6117947128f254e4a057b781ddd6e265e2668b",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.Amulet:SvRewardCoupon",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "beneficiary": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "round": {
+              "number": "0"
+            },
+            "weight": "140000"
+          },
+          "created_at": "2024-06-24T21:08:38.964148Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        }
+      }
+    },
+    {
+      "update_id": "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:08:39.121199Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:08:39.111831Z",
+      "root_event_ids": [
+        "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:0"
+      ],
+      "events_by_id": {
+        "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_OnboardValidator",
+          "choice_argument": {
+            "sponsor": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "version": null,
+            "contactPoint": null
+          },
+          "child_event_ids": [
+            "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:1"
+          ],
+          "exercise_result": {
+            "validatorLicense": "001d9f783787a9ececb9de948ba05431067cf18260fd31b4f041e6766f95d208f1ca10122061342313b50f8befe8f87aa2c84b03b8c24d2fb28086583c73eca3e2592f0a81"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:1": {
+          "event_type": "created_event",
+          "event_id": "1220d17b325481aaef55f532b3b871c6ab3d4a5b28e95b242083ea6b1a6e841bf8ee:1",
+          "contract_id": "001d9f783787a9ececb9de948ba05431067cf18260fd31b4f041e6766f95d208f1ca10122061342313b50f8befe8f87aa2c84b03b8c24d2fb28086583c73eca3e2592f0a81",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorLicense",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "sponsor": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "faucetState": null,
+            "metadata": null,
+            "lastActiveAt": null
+          },
+          "created_at": "2024-06-24T21:08:39.111831Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        }
+      }
+    },
+    {
+      "update_id": "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:08:39.536717Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:08:39.709648Z",
+      "root_event_ids": [
+        "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:0"
+      ],
+      "events_by_id": {
+        "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_ReceiveSvRewardCoupon",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "openRoundCid": "0023c28cd5bfac3b2f349fe9ac2910e0718a23ff1b7782d40d7e04e92ad4c3c987ca101220cf3b6b824cd78e67a5bc71e49bd33e836c91f4daef301703c98922fb193ecca1",
+            "rewardStateCid": "002aa8d63cb029666ea96c982ef12f59a470557b18a845122803ef77ce046e6804ca10122033f07fc7dcc5a863c9c5309d850f5eca1a223ec6d608cb3ecdab96ee0971d1f3",
+            "beneficiaries": [
+              {
+                "_1": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+                "_2": "140000"
+              }
+            ]
+          },
+          "child_event_ids": [
+            "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:1",
+            "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:2",
+            "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:3"
+          ],
+          "exercise_result": {
+            "svRewardState": "00cd34c126fdf944c0e5fd84fe55a280cc860ea01452b3885d5cdf8d08118acfe8ca101220746f7477a4660994059d6d47879e8f741e3b4f019c5a5b7678f5478fce9e57d8",
+            "svRewardCoupons": [
+              "009c4440cf34a96127b588f13f42bbe9462a0589e1a50af8774d574b2cf71f2f54ca1012204d64e5a560559dd4bf2ae2f02792d367218d92ae039cfcba74ac4a8ac483c4ad"
+            ]
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:1",
+          "contract_id": "002aa8d63cb029666ea96c982ef12f59a470557b18a845122803ef77ce046e6804ca10122033f07fc7dcc5a863c9c5309d850f5eca1a223ec6d608cb3ecdab96ee0971d1f3",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvRewardState",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:2": {
+          "event_type": "created_event",
+          "event_id": "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:2",
+          "contract_id": "00cd34c126fdf944c0e5fd84fe55a280cc860ea01452b3885d5cdf8d08118acfe8ca101220746f7477a4660994059d6d47879e8f741e3b4f019c5a5b7678f5478fce9e57d8",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvRewardState",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "svName": "Digital-Asset-2",
+            "state": {
+              "numRoundsMissed": "0",
+              "numRoundsCollected": "2",
+              "lastRoundCollected": {
+                "number": "1"
+              },
+              "numCouponsIssued": "2"
+            }
+          },
+          "created_at": "2024-06-24T21:08:39.709648Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        },
+        "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:3": {
+          "event_type": "created_event",
+          "event_id": "1220b9625d939951215dc02ea4f99d0ca890a239539b773281d917074a99604f7e87:3",
+          "contract_id": "009c4440cf34a96127b588f13f42bbe9462a0589e1a50af8774d574b2cf71f2f54ca1012204d64e5a560559dd4bf2ae2f02792d367218d92ae039cfcba74ac4a8ac483c4ad",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.Amulet:SvRewardCoupon",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "beneficiary": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "round": {
+              "number": "1"
+            },
+            "weight": "140000"
+          },
+          "created_at": "2024-06-24T21:08:39.709648Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        }
+      }
+    },
+    {
+      "update_id": "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:09:41.822262Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:09:42.776019Z",
+      "root_event_ids": [
+        "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:0"
+      ],
+      "events_by_id": {
+        "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "004a4e28c8b7872d4af6d786dcd06bd39a5c4897f6afbf4ab1371a840ffdcd41f2ca10122005ff4d1e3e47c13fcccad576e1ab6099817577e41b6ffd3c487842f4ede24c31",
+            "status": {
+              "createdAt": "2024-06-24T21:09:42.750204Z",
+              "cometBftHeight": "130",
+              "mediatorSynchronizerTime": "2024-06-24T21:09:41.724730Z",
+              "participantSynchronizerTime": "2024-06-24T21:09:41.724730Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:1",
+            "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:2"
+          ],
+          "exercise_result": {
+            "newReport": "006331ad678a0c5a7508a7e01a04f8ef8bde6150c49a473c6bb89cb70f7a0ada85ca1012206dc45c34578278d3470b3938bbfe613596ff677f388e3164187deee8adaf5756"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:1",
+          "contract_id": "004a4e28c8b7872d4af6d786dcd06bd39a5c4897f6afbf4ab1371a840ffdcd41f2ca10122005ff4d1e3e47c13fcccad576e1ab6099817577e41b6ffd3c487842f4ede24c31",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:2": {
+          "event_type": "created_event",
+          "event_id": "1220f06186a6ab76c93577f38cdbb44db1dd03f658705307607084d6f9f696a7e237:2",
+          "contract_id": "006331ad678a0c5a7508a7e01a04f8ef8bde6150c49a473c6bb89cb70f7a0ada85ca1012206dc45c34578278d3470b3938bbfe613596ff677f388e3164187deee8adaf5756",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "2",
+            "status": {
+              "createdAt": "2024-06-24T21:09:42.750204Z",
+              "cometBftHeight": "130",
+              "mediatorSynchronizerTime": "2024-06-24T21:09:41.724730Z",
+              "participantSynchronizerTime": "2024-06-24T21:09:41.724730Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:09:42.776019Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:10:43.834020Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:10:46.144319Z",
+      "root_event_ids": [
+        "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:0"
+      ],
+      "events_by_id": {
+        "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:0": {
+          "event_type": "exercised_event",
+          "event_id": "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "006331ad678a0c5a7508a7e01a04f8ef8bde6150c49a473c6bb89cb70f7a0ada85ca1012206dc45c34578278d3470b3938bbfe613596ff677f388e3164187deee8adaf5756",
+            "status": {
+              "createdAt": "2024-06-24T21:10:46.135614Z",
+              "cometBftHeight": "158",
+              "mediatorSynchronizerTime": "2024-06-24T21:10:12.262718Z",
+              "participantSynchronizerTime": "2024-06-24T21:10:43.223424Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:1",
+            "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:2"
+          ],
+          "exercise_result": {
+            "newReport": "00e8b91dcd6bcdecb2a76c487a21c174ac2cee7ba38c6941280fef3864513d9e49ca101220a3e5e6a09cd25ae4ce6aa2f560e88b9c8bcf319cd6783b4c7a161cb6fe09d4c1"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:1": {
+          "event_type": "exercised_event",
+          "event_id": "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:1",
+          "contract_id": "006331ad678a0c5a7508a7e01a04f8ef8bde6150c49a473c6bb89cb70f7a0ada85ca1012206dc45c34578278d3470b3938bbfe613596ff677f388e3164187deee8adaf5756",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:2": {
+          "event_type": "created_event",
+          "event_id": "122030a66d387ce8d9408ef4c5cb124a68eed1f9eec18ee819db45f4d2bdb9f64fa4:2",
+          "contract_id": "00e8b91dcd6bcdecb2a76c487a21c174ac2cee7ba38c6941280fef3864513d9e49ca101220a3e5e6a09cd25ae4ce6aa2f560e88b9c8bcf319cd6783b4c7a161cb6fe09d4c1",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "3",
+            "status": {
+              "createdAt": "2024-06-24T21:10:46.135614Z",
+              "cometBftHeight": "158",
+              "mediatorSynchronizerTime": "2024-06-24T21:10:12.262718Z",
+              "participantSynchronizerTime": "2024-06-24T21:10:43.223424Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:10:46.144319Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:11:39.901069Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:11:43.049501Z",
+      "root_event_ids": [
+        "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:0"
+      ],
+      "events_by_id": {
+        "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00e8b91dcd6bcdecb2a76c487a21c174ac2cee7ba38c6941280fef3864513d9e49ca101220a3e5e6a09cd25ae4ce6aa2f560e88b9c8bcf319cd6783b4c7a161cb6fe09d4c1",
+            "status": {
+              "createdAt": "2024-06-24T21:11:43.041222Z",
+              "cometBftHeight": "175",
+              "mediatorSynchronizerTime": "2024-06-24T21:11:14.100482Z",
+              "participantSynchronizerTime": "2024-06-24T21:11:24.713990Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:1",
+            "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:2"
+          ],
+          "exercise_result": {
+            "newReport": "005d50f79be91c05b87357cc81cae52cbe424bd56a0afd044817316cb994afa6dbca101220fdf4a4f73b23341d90f0254339b4742412abf814ce53ab94166d4db59346368f"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:1",
+          "contract_id": "00e8b91dcd6bcdecb2a76c487a21c174ac2cee7ba38c6941280fef3864513d9e49ca101220a3e5e6a09cd25ae4ce6aa2f560e88b9c8bcf319cd6783b4c7a161cb6fe09d4c1",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:2": {
+          "event_type": "created_event",
+          "event_id": "1220d8997fe7759131f0b794e793e14ac978b3ee8b193b884af145149a0609a5d59e:2",
+          "contract_id": "005d50f79be91c05b87357cc81cae52cbe424bd56a0afd044817316cb994afa6dbca101220fdf4a4f73b23341d90f0254339b4742412abf814ce53ab94166d4db59346368f",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "4",
+            "status": {
+              "createdAt": "2024-06-24T21:11:43.041222Z",
+              "cometBftHeight": "175",
+              "mediatorSynchronizerTime": "2024-06-24T21:11:14.100482Z",
+              "participantSynchronizerTime": "2024-06-24T21:11:24.713990Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:11:43.049501Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:12:43.852091Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:12:48.139188Z",
+      "root_event_ids": [
+        "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:0"
+      ],
+      "events_by_id": {
+        "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:0": {
+          "event_type": "exercised_event",
+          "event_id": "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "005d50f79be91c05b87357cc81cae52cbe424bd56a0afd044817316cb994afa6dbca101220fdf4a4f73b23341d90f0254339b4742412abf814ce53ab94166d4db59346368f",
+            "status": {
+              "createdAt": "2024-06-24T21:12:48.130459Z",
+              "cometBftHeight": "198",
+              "mediatorSynchronizerTime": "2024-06-24T21:12:10.166084Z",
+              "participantSynchronizerTime": "2024-06-24T21:12:43.313954Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:1",
+            "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:2"
+          ],
+          "exercise_result": {
+            "newReport": "009f840a99a942c8d297791858f42ca652e9c4571c42e77d62216b0a445f86bcaaca1012203b56467fe80cbc7bf0005d7c5bd1c47a51058cb508fccb7b148b6dbb2001b9dc"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:1": {
+          "event_type": "exercised_event",
+          "event_id": "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:1",
+          "contract_id": "005d50f79be91c05b87357cc81cae52cbe424bd56a0afd044817316cb994afa6dbca101220fdf4a4f73b23341d90f0254339b4742412abf814ce53ab94166d4db59346368f",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:2": {
+          "event_type": "created_event",
+          "event_id": "12201242aa3bf821044c8a8aef31a0d75dd27d4100718d0f8d24d082a5132b3ff98c:2",
+          "contract_id": "009f840a99a942c8d297791858f42ca652e9c4571c42e77d62216b0a445f86bcaaca1012203b56467fe80cbc7bf0005d7c5bd1c47a51058cb508fccb7b148b6dbb2001b9dc",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "5",
+            "status": {
+              "createdAt": "2024-06-24T21:12:48.130459Z",
+              "cometBftHeight": "198",
+              "mediatorSynchronizerTime": "2024-06-24T21:12:10.166084Z",
+              "participantSynchronizerTime": "2024-06-24T21:12:43.313954Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:12:48.139188Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:13:14.686816Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:13:18.843933Z",
+      "root_event_ids": [
+        "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:0"
+      ],
+      "events_by_id": {
+        "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:0",
+          "contract_id": "001d9f783787a9ececb9de948ba05431067cf18260fd31b4f041e6766f95d208f1ca10122061342313b50f8befe8f87aa2c84b03b8c24d2fb28086583c73eca3e2592f0a81",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorLicense",
+          "package_name": "splice-amulet",
+          "choice": "ValidatorLicense_ReceiveFaucetCoupon",
+          "choice_argument": {
+            "openRoundCid": "002378cc2df5a95eb010a6ddea86befa6299b221948ae619272f71ff27534365f3ca1012208558039ea67e1f16d1f292cfc289dd634ee764892e225396fcb768d3653288c7"
+          },
+          "child_event_ids": [
+            "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:1",
+            "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:2"
+          ],
+          "exercise_result": {
+            "licenseCid": "001fee5d4457aba35e365899d4339645c0b7d032ebb8859533254a447ae7d71bbaca101220f8b7756bbdc69a7a088f422da3d4b3c5bfd821df23c98330467549d8c2261133",
+            "couponCid": "007f37401c3a27c89c2a2b9a68801df39c0492bb794f73575e3b14b8f4b93efa59ca1012208dde7a6e3f525ea231fbfcee865be049cc1846bd42c2b552c3261c7bfad573a5"
+          },
+          "consuming": true,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:1": {
+          "event_type": "created_event",
+          "event_id": "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:1",
+          "contract_id": "001fee5d4457aba35e365899d4339645c0b7d032ebb8859533254a447ae7d71bbaca101220f8b7756bbdc69a7a088f422da3d4b3c5bfd821df23c98330467549d8c2261133",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorLicense",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "sponsor": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "faucetState": {
+              "firstReceivedFor": {
+                "number": "0"
+              },
+              "lastReceivedFor": {
+                "number": "0"
+              },
+              "numCouponsMissed": "0"
+            },
+            "metadata": null,
+            "lastActiveAt": null
+          },
+          "created_at": "2024-06-24T21:13:18.843933Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        },
+        "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:2": {
+          "event_type": "created_event",
+          "event_id": "1220fd6585ae22e5dde97f879b9284f55a259199545d91471c99070cbb748d427c87:2",
+          "contract_id": "007f37401c3a27c89c2a2b9a68801df39c0492bb794f73575e3b14b8f4b93efa59ca1012208dde7a6e3f525ea231fbfcee865be049cc1846bd42c2b552c3261c7bfad573a5",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorFaucetCoupon",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "round": {
+              "number": "0"
+            }
+          },
+          "created_at": "2024-06-24T21:13:18.843933Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:13:19.085945Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:13:19.265788Z",
+      "root_event_ids": [
+        "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:0"
+      ],
+      "events_by_id": {
+        "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:0",
+          "contract_id": "001fee5d4457aba35e365899d4339645c0b7d032ebb8859533254a447ae7d71bbaca101220f8b7756bbdc69a7a088f422da3d4b3c5bfd821df23c98330467549d8c2261133",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorLicense",
+          "package_name": "splice-amulet",
+          "choice": "ValidatorLicense_ReceiveFaucetCoupon",
+          "choice_argument": {
+            "openRoundCid": "0023c28cd5bfac3b2f349fe9ac2910e0718a23ff1b7782d40d7e04e92ad4c3c987ca101220cf3b6b824cd78e67a5bc71e49bd33e836c91f4daef301703c98922fb193ecca1"
+          },
+          "child_event_ids": [
+            "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:1",
+            "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:2"
+          ],
+          "exercise_result": {
+            "licenseCid": "0097f1e4e86522ece4c439637533cbbb2017ec5798b9b0f358316128f4157e9b18ca1012206b35792953d000e2940e4f60abd6ab40a156c46ebac3e231a89821b0bc67d6ee",
+            "couponCid": "00fce83f30ed58734cc9959687a8e0cc916cd8348a81e26eb01dcc8e0a3f8f2cf7ca101220ed02aebe4a6bb9138a68c8bf74e3082572ef09d81ee599f9d2a528094e178cf1"
+          },
+          "consuming": true,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:1": {
+          "event_type": "created_event",
+          "event_id": "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:1",
+          "contract_id": "0097f1e4e86522ece4c439637533cbbb2017ec5798b9b0f358316128f4157e9b18ca1012206b35792953d000e2940e4f60abd6ab40a156c46ebac3e231a89821b0bc67d6ee",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorLicense",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "sponsor": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "faucetState": {
+              "firstReceivedFor": {
+                "number": "0"
+              },
+              "lastReceivedFor": {
+                "number": "1"
+              },
+              "numCouponsMissed": "0"
+            },
+            "metadata": null,
+            "lastActiveAt": null
+          },
+          "created_at": "2024-06-24T21:13:19.265788Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ]
+        },
+        "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:2": {
+          "event_type": "created_event",
+          "event_id": "1220931536c3ae1a6eb7d19a4f0b2c70bdc2f647536dc816335b102cea35871fa981:2",
+          "contract_id": "00fce83f30ed58734cc9959687a8e0cc916cd8348a81e26eb01dcc8e0a3f8f2cf7ca101220ed02aebe4a6bb9138a68c8bf74e3082572ef09d81ee599f9d2a528094e178cf1",
+          "template_id": "1446ffdf23326cef2de97923df96618eb615792bea36cf1431f03639448f1645:Splice.ValidatorLicense:ValidatorFaucetCoupon",
+          "package_name": "splice-amulet",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "validator": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "round": {
+              "number": "1"
+            }
+          },
+          "created_at": "2024-06-24T21:13:19.265788Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:13:49.900186Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:13:52.687598Z",
+      "root_event_ids": [
+        "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:0"
+      ],
+      "events_by_id": {
+        "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:0": {
+          "event_type": "exercised_event",
+          "event_id": "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "009f840a99a942c8d297791858f42ca652e9c4571c42e77d62216b0a445f86bcaaca1012203b56467fe80cbc7bf0005d7c5bd1c47a51058cb508fccb7b148b6dbb2001b9dc",
+            "status": {
+              "createdAt": "2024-06-24T21:13:52.680374Z",
+              "cometBftHeight": "227",
+              "mediatorSynchronizerTime": "2024-06-24T21:13:49.350823Z",
+              "participantSynchronizerTime": "2024-06-24T21:13:48.402388Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:1",
+            "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:2"
+          ],
+          "exercise_result": {
+            "newReport": "0039e64a0bb95919ad0c623d7e82daa69569e7138c89c1b32ed9631706d343fda8ca101220215acafbe8ee985203c8ab989a2f92e2433166fb1e589431b93a32383cd263b6"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:1": {
+          "event_type": "exercised_event",
+          "event_id": "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:1",
+          "contract_id": "009f840a99a942c8d297791858f42ca652e9c4571c42e77d62216b0a445f86bcaaca1012203b56467fe80cbc7bf0005d7c5bd1c47a51058cb508fccb7b148b6dbb2001b9dc",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:2": {
+          "event_type": "created_event",
+          "event_id": "12206e2147754a639e5fea215b44eb364e55a1bc4a82535f34926a8c233e61a41847:2",
+          "contract_id": "0039e64a0bb95919ad0c623d7e82daa69569e7138c89c1b32ed9631706d343fda8ca101220215acafbe8ee985203c8ab989a2f92e2433166fb1e589431b93a32383cd263b6",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "6",
+            "status": {
+              "createdAt": "2024-06-24T21:13:52.680374Z",
+              "cometBftHeight": "227",
+              "mediatorSynchronizerTime": "2024-06-24T21:13:49.350823Z",
+              "participantSynchronizerTime": "2024-06-24T21:13:48.402388Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:13:52.687598Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:14:53.490901Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:14:55.026607Z",
+      "root_event_ids": [
+        "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:0"
+      ],
+      "events_by_id": {
+        "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "0039e64a0bb95919ad0c623d7e82daa69569e7138c89c1b32ed9631706d343fda8ca101220215acafbe8ee985203c8ab989a2f92e2433166fb1e589431b93a32383cd263b6",
+            "status": {
+              "createdAt": "2024-06-24T21:14:55.019253Z",
+              "cometBftHeight": "251",
+              "mediatorSynchronizerTime": "2024-06-24T21:14:20.325415Z",
+              "participantSynchronizerTime": "2024-06-24T21:14:52.950748Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:1",
+            "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:2"
+          ],
+          "exercise_result": {
+            "newReport": "0089ef59cc8621e8c9c6cbd34d0310deb9a88f2a71afa07ae063eab6222378e557ca101220335223290dc2aa5f2efdf3a49652fd617f8dfb633dd3e30b56c613532a3e4d12"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:1",
+          "contract_id": "0039e64a0bb95919ad0c623d7e82daa69569e7138c89c1b32ed9631706d343fda8ca101220215acafbe8ee985203c8ab989a2f92e2433166fb1e589431b93a32383cd263b6",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:2": {
+          "event_type": "created_event",
+          "event_id": "1220b601d7af635604e38afb378c4d68c5269c378626e20f0eb247eac531024f509d:2",
+          "contract_id": "0089ef59cc8621e8c9c6cbd34d0310deb9a88f2a71afa07ae063eab6222378e557ca101220335223290dc2aa5f2efdf3a49652fd617f8dfb633dd3e30b56c613532a3e4d12",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "7",
+            "status": {
+              "createdAt": "2024-06-24T21:14:55.019253Z",
+              "cometBftHeight": "251",
+              "mediatorSynchronizerTime": "2024-06-24T21:14:20.325415Z",
+              "participantSynchronizerTime": "2024-06-24T21:14:52.950748Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:14:55.026607Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:15:53.753641Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:15:54.205732Z",
+      "root_event_ids": [
+        "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:0"
+      ],
+      "events_by_id": {
+        "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "0089ef59cc8621e8c9c6cbd34d0310deb9a88f2a71afa07ae063eab6222378e557ca101220335223290dc2aa5f2efdf3a49652fd617f8dfb633dd3e30b56c613532a3e4d12",
+            "status": {
+              "createdAt": "2024-06-24T21:15:54.198716Z",
+              "cometBftHeight": "269",
+              "mediatorSynchronizerTime": "2024-06-24T21:15:23.693095Z",
+              "participantSynchronizerTime": "2024-06-24T21:15:53.406725Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:1",
+            "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:2"
+          ],
+          "exercise_result": {
+            "newReport": "00532903cd5b4e570a99a13f7f37d299f1c47f82ddbeb81f72134d5b14c95caee1ca10122069f4027f80ae8b71a3859748707a77e8fd616b8c133960b2e08937d0bdc0b3ed"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:1",
+          "contract_id": "0089ef59cc8621e8c9c6cbd34d0310deb9a88f2a71afa07ae063eab6222378e557ca101220335223290dc2aa5f2efdf3a49652fd617f8dfb633dd3e30b56c613532a3e4d12",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:2": {
+          "event_type": "created_event",
+          "event_id": "1220ae631578d3e5df0d6d3bf55d144982c0d58d903ac7dc588121fff0c303ba0344:2",
+          "contract_id": "00532903cd5b4e570a99a13f7f37d299f1c47f82ddbeb81f72134d5b14c95caee1ca10122069f4027f80ae8b71a3859748707a77e8fd616b8c133960b2e08937d0bdc0b3ed",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "8",
+            "status": {
+              "createdAt": "2024-06-24T21:15:54.198716Z",
+              "cometBftHeight": "269",
+              "mediatorSynchronizerTime": "2024-06-24T21:15:23.693095Z",
+              "participantSynchronizerTime": "2024-06-24T21:15:53.406725Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:15:54.205732Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:16:54.021321Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:16:54.037841Z",
+      "root_event_ids": [
+        "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:0"
+      ],
+      "events_by_id": {
+        "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:0": {
+          "event_type": "exercised_event",
+          "event_id": "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00532903cd5b4e570a99a13f7f37d299f1c47f82ddbeb81f72134d5b14c95caee1ca10122069f4027f80ae8b71a3859748707a77e8fd616b8c133960b2e08937d0bdc0b3ed",
+            "status": {
+              "createdAt": "2024-06-24T21:16:54.030591Z",
+              "cometBftHeight": "289",
+              "mediatorSynchronizerTime": "2024-06-24T21:16:24.018954Z",
+              "participantSynchronizerTime": "2024-06-24T21:16:29.880422Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:1",
+            "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:2"
+          ],
+          "exercise_result": {
+            "newReport": "00238caca609eed18216006fd1b220edbf74e01ec9d0fd1d92f9c7f2ed98286b9aca101220bed8b4dbd08f7e09e36f85e3ff40ef6d3988698815bb40b2d3db75e420ad142e"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:1": {
+          "event_type": "exercised_event",
+          "event_id": "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:1",
+          "contract_id": "00532903cd5b4e570a99a13f7f37d299f1c47f82ddbeb81f72134d5b14c95caee1ca10122069f4027f80ae8b71a3859748707a77e8fd616b8c133960b2e08937d0bdc0b3ed",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:2": {
+          "event_type": "created_event",
+          "event_id": "12207760a58bf5a906ab69eaf00ebe02ab595eb0358d5a494a84d1a44578a7e09bcc:2",
+          "contract_id": "00238caca609eed18216006fd1b220edbf74e01ec9d0fd1d92f9c7f2ed98286b9aca101220bed8b4dbd08f7e09e36f85e3ff40ef6d3988698815bb40b2d3db75e420ad142e",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "9",
+            "status": {
+              "createdAt": "2024-06-24T21:16:54.030591Z",
+              "cometBftHeight": "289",
+              "mediatorSynchronizerTime": "2024-06-24T21:16:24.018954Z",
+              "participantSynchronizerTime": "2024-06-24T21:16:29.880422Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:16:54.037841Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:17:45.308493Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:17:49.305377Z",
+      "root_event_ids": [
+        "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:0"
+      ],
+      "events_by_id": {
+        "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00238caca609eed18216006fd1b220edbf74e01ec9d0fd1d92f9c7f2ed98286b9aca101220bed8b4dbd08f7e09e36f85e3ff40ef6d3988698815bb40b2d3db75e420ad142e",
+            "status": {
+              "createdAt": "2024-06-24T21:17:49.298171Z",
+              "cometBftHeight": "308",
+              "mediatorSynchronizerTime": "2024-06-24T21:17:24.286965Z",
+              "participantSynchronizerTime": "2024-06-24T21:17:29.880413Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:1",
+            "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:2"
+          ],
+          "exercise_result": {
+            "newReport": "0073c287cd2e3d97e8d0590127928428e63ec81350b4620125ab348e3f3343f9cdca101220783ab789ba2d0bdfc359b3cfce8e1c9e6833e8c1ca9fee21098e89d768bd166c"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:1",
+          "contract_id": "00238caca609eed18216006fd1b220edbf74e01ec9d0fd1d92f9c7f2ed98286b9aca101220bed8b4dbd08f7e09e36f85e3ff40ef6d3988698815bb40b2d3db75e420ad142e",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:2": {
+          "event_type": "created_event",
+          "event_id": "1220866160e304398acaa7f1807d99be27f17ce9957638b7ddcb58a28039feb47ed3:2",
+          "contract_id": "0073c287cd2e3d97e8d0590127928428e63ec81350b4620125ab348e3f3343f9cdca101220783ab789ba2d0bdfc359b3cfce8e1c9e6833e8c1ca9fee21098e89d768bd166c",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "10",
+            "status": {
+              "createdAt": "2024-06-24T21:17:49.298171Z",
+              "cometBftHeight": "308",
+              "mediatorSynchronizerTime": "2024-06-24T21:17:24.286965Z",
+              "participantSynchronizerTime": "2024-06-24T21:17:29.880413Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:17:49.305377Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:18:50.196036Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:18:53.890171Z",
+      "root_event_ids": [
+        "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:0"
+      ],
+      "events_by_id": {
+        "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "0073c287cd2e3d97e8d0590127928428e63ec81350b4620125ab348e3f3343f9cdca101220783ab789ba2d0bdfc359b3cfce8e1c9e6833e8c1ca9fee21098e89d768bd166c",
+            "status": {
+              "createdAt": "2024-06-24T21:18:53.884008Z",
+              "cometBftHeight": "329",
+              "mediatorSynchronizerTime": "2024-06-24T21:18:15.572654Z",
+              "participantSynchronizerTime": "2024-06-24T21:18:49.567860Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:1",
+            "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:2"
+          ],
+          "exercise_result": {
+            "newReport": "002225ea4018bcf6e814f060672ed1b0df5f31d8ac51df50eeb34e7f335707d8a0ca101220107f56d3c7cf2275fe71c40772f99f3ece4e84cd7134bb2cc5ad93466d6525f5"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:1",
+          "contract_id": "0073c287cd2e3d97e8d0590127928428e63ec81350b4620125ab348e3f3343f9cdca101220783ab789ba2d0bdfc359b3cfce8e1c9e6833e8c1ca9fee21098e89d768bd166c",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:2": {
+          "event_type": "created_event",
+          "event_id": "1220df671151f99670904b3f0002ed3071cbe470d7d9a5585c77b2e5504e24288424:2",
+          "contract_id": "002225ea4018bcf6e814f060672ed1b0df5f31d8ac51df50eeb34e7f335707d8a0ca101220107f56d3c7cf2275fe71c40772f99f3ece4e84cd7134bb2cc5ad93466d6525f5",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "11",
+            "status": {
+              "createdAt": "2024-06-24T21:18:53.884008Z",
+              "cometBftHeight": "329",
+              "mediatorSynchronizerTime": "2024-06-24T21:18:15.572654Z",
+              "participantSynchronizerTime": "2024-06-24T21:18:49.567860Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:18:53.890171Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:19:50.460389Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:19:50.427418Z",
+      "root_event_ids": [
+        "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:0"
+      ],
+      "events_by_id": {
+        "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "002225ea4018bcf6e814f060672ed1b0df5f31d8ac51df50eeb34e7f335707d8a0ca101220107f56d3c7cf2275fe71c40772f99f3ece4e84cd7134bb2cc5ad93466d6525f5",
+            "status": {
+              "createdAt": "2024-06-24T21:19:50.420797Z",
+              "cometBftHeight": "346",
+              "mediatorSynchronizerTime": "2024-06-24T21:19:20.460135Z",
+              "participantSynchronizerTime": "2024-06-24T21:19:26.095038Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:1",
+            "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:2"
+          ],
+          "exercise_result": {
+            "newReport": "0074d44b419fb4908d443a8635348f7087170b70cc22734d587b6fea7111006d56ca1012206ff6180074c9df05b8c80b1305052a7cde407cc40ca7f735ab1305d41a8e2079"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:1",
+          "contract_id": "002225ea4018bcf6e814f060672ed1b0df5f31d8ac51df50eeb34e7f335707d8a0ca101220107f56d3c7cf2275fe71c40772f99f3ece4e84cd7134bb2cc5ad93466d6525f5",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:2": {
+          "event_type": "created_event",
+          "event_id": "1220a84a98b6ae2248f91c7b616aaa8346f512608eb71294dbc4495dfe9b15f55929:2",
+          "contract_id": "0074d44b419fb4908d443a8635348f7087170b70cc22734d587b6fea7111006d56ca1012206ff6180074c9df05b8c80b1305052a7cde407cc40ca7f735ab1305d41a8e2079",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "12",
+            "status": {
+              "createdAt": "2024-06-24T21:19:50.420797Z",
+              "cometBftHeight": "346",
+              "mediatorSynchronizerTime": "2024-06-24T21:19:20.460135Z",
+              "participantSynchronizerTime": "2024-06-24T21:19:26.095038Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:19:50.427418Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:20:47.925803Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:20:48.522824Z",
+      "root_event_ids": [
+        "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:0"
+      ],
+      "events_by_id": {
+        "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:0": {
+          "event_type": "exercised_event",
+          "event_id": "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "0074d44b419fb4908d443a8635348f7087170b70cc22734d587b6fea7111006d56ca1012206ff6180074c9df05b8c80b1305052a7cde407cc40ca7f735ab1305d41a8e2079",
+            "status": {
+              "createdAt": "2024-06-24T21:20:48.516185Z",
+              "cometBftHeight": "365",
+              "mediatorSynchronizerTime": "2024-06-24T21:20:20.723604Z",
+              "participantSynchronizerTime": "2024-06-24T21:20:34.897604Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:1",
+            "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:2"
+          ],
+          "exercise_result": {
+            "newReport": "00b442c7df684fe2c76919a3ed2607be0daf01e7d5cd74d647892c807c4ccf0c28ca1012206db49ca2bb107b43fefff50fc7b200ea9a561a7232a0004e47832c3dacccf7ef"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:1": {
+          "event_type": "exercised_event",
+          "event_id": "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:1",
+          "contract_id": "0074d44b419fb4908d443a8635348f7087170b70cc22734d587b6fea7111006d56ca1012206ff6180074c9df05b8c80b1305052a7cde407cc40ca7f735ab1305d41a8e2079",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:2": {
+          "event_type": "created_event",
+          "event_id": "122057f2e58a75073350842655a555a8d44d4f3c94ef3b9f4c68119796ff29fdb8d7:2",
+          "contract_id": "00b442c7df684fe2c76919a3ed2607be0daf01e7d5cd74d647892c807c4ccf0c28ca1012206db49ca2bb107b43fefff50fc7b200ea9a561a7232a0004e47832c3dacccf7ef",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "13",
+            "status": {
+              "createdAt": "2024-06-24T21:20:48.516185Z",
+              "cometBftHeight": "365",
+              "mediatorSynchronizerTime": "2024-06-24T21:20:20.723604Z",
+              "participantSynchronizerTime": "2024-06-24T21:20:34.897604Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:20:48.522824Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:21:44.927284Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:21:46.877223Z",
+      "root_event_ids": [
+        "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:0"
+      ],
+      "events_by_id": {
+        "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:0": {
+          "event_type": "exercised_event",
+          "event_id": "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00b442c7df684fe2c76919a3ed2607be0daf01e7d5cd74d647892c807c4ccf0c28ca1012206db49ca2bb107b43fefff50fc7b200ea9a561a7232a0004e47832c3dacccf7ef",
+            "status": {
+              "createdAt": "2024-06-24T21:21:46.870101Z",
+              "cometBftHeight": "384",
+              "mediatorSynchronizerTime": "2024-06-24T21:21:18.188799Z",
+              "participantSynchronizerTime": "2024-06-24T21:21:28.837014Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:1",
+            "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:2"
+          ],
+          "exercise_result": {
+            "newReport": "00c57f739f223ac6c9a4453929548d52f0be746e47b099a1ecf861fde64f703045ca101220edcf3eab71bba7de0b3a8ab296c112ef1e3a865129c3e52af5488b051fa41166"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:1": {
+          "event_type": "exercised_event",
+          "event_id": "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:1",
+          "contract_id": "00b442c7df684fe2c76919a3ed2607be0daf01e7d5cd74d647892c807c4ccf0c28ca1012206db49ca2bb107b43fefff50fc7b200ea9a561a7232a0004e47832c3dacccf7ef",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:2": {
+          "event_type": "created_event",
+          "event_id": "12203875c5d515a4e65199a7b5f7447e88bc155796dab70ee88d15d7c62d56d69759:2",
+          "contract_id": "00c57f739f223ac6c9a4453929548d52f0be746e47b099a1ecf861fde64f703045ca101220edcf3eab71bba7de0b3a8ab296c112ef1e3a865129c3e52af5488b051fa41166",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "14",
+            "status": {
+              "createdAt": "2024-06-24T21:21:46.870101Z",
+              "cometBftHeight": "384",
+              "mediatorSynchronizerTime": "2024-06-24T21:21:18.188799Z",
+              "participantSynchronizerTime": "2024-06-24T21:21:28.837014Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:21:46.877223Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:22:47.699841Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:22:51.408930Z",
+      "root_event_ids": [
+        "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:0"
+      ],
+      "events_by_id": {
+        "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00c57f739f223ac6c9a4453929548d52f0be746e47b099a1ecf861fde64f703045ca101220edcf3eab71bba7de0b3a8ab296c112ef1e3a865129c3e52af5488b051fa41166",
+            "status": {
+              "createdAt": "2024-06-24T21:22:51.402036Z",
+              "cometBftHeight": "407",
+              "mediatorSynchronizerTime": "2024-06-24T21:22:15.192517Z",
+              "participantSynchronizerTime": "2024-06-24T21:22:47.140778Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:1",
+            "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:2"
+          ],
+          "exercise_result": {
+            "newReport": "004dae5f544df9aa015841a1e55e214e98706233569523d001222d873548ba7709ca1012208888e23a3804b690f6376ac52fc4093ab9091d4e83ab4e9333e644193cac8bca"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:1",
+          "contract_id": "00c57f739f223ac6c9a4453929548d52f0be746e47b099a1ecf861fde64f703045ca101220edcf3eab71bba7de0b3a8ab296c112ef1e3a865129c3e52af5488b051fa41166",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:2": {
+          "event_type": "created_event",
+          "event_id": "1220fea21fca0624fb94ed9a3a05cecdbef87299427b2dec056e86c3d44f474f72d3:2",
+          "contract_id": "004dae5f544df9aa015841a1e55e214e98706233569523d001222d873548ba7709ca1012208888e23a3804b690f6376ac52fc4093ab9091d4e83ab4e9333e644193cac8bca",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "15",
+            "status": {
+              "createdAt": "2024-06-24T21:22:51.402036Z",
+              "cometBftHeight": "407",
+              "mediatorSynchronizerTime": "2024-06-24T21:22:15.192517Z",
+              "participantSynchronizerTime": "2024-06-24T21:22:47.140778Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:22:51.40893Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:23:52.202322Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:23:56.059014Z",
+      "root_event_ids": [
+        "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:0"
+      ],
+      "events_by_id": {
+        "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "004dae5f544df9aa015841a1e55e214e98706233569523d001222d873548ba7709ca1012208888e23a3804b690f6376ac52fc4093ab9091d4e83ab4e9333e644193cac8bca",
+            "status": {
+              "createdAt": "2024-06-24T21:23:56.052564Z",
+              "cometBftHeight": "428",
+              "mediatorSynchronizerTime": "2024-06-24T21:23:17.962987Z",
+              "participantSynchronizerTime": "2024-06-24T21:23:51.670678Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:1",
+            "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:2"
+          ],
+          "exercise_result": {
+            "newReport": "00d0ed59ebdde8a87556ef8162b2e04101aaa289506ac8c487a6e0b1c04d8db28aca101220063cd8ed51988f7c9d69a1fda50a000d57009c50a109588aef625902918c1f1b"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:1",
+          "contract_id": "004dae5f544df9aa015841a1e55e214e98706233569523d001222d873548ba7709ca1012208888e23a3804b690f6376ac52fc4093ab9091d4e83ab4e9333e644193cac8bca",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:2": {
+          "event_type": "created_event",
+          "event_id": "1220a5d663c9e70bca41535133dcd297efd7edd2a5e2c894e7b7970f2259acd3a6e6:2",
+          "contract_id": "00d0ed59ebdde8a87556ef8162b2e04101aaa289506ac8c487a6e0b1c04d8db28aca101220063cd8ed51988f7c9d69a1fda50a000d57009c50a109588aef625902918c1f1b",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "16",
+            "status": {
+              "createdAt": "2024-06-24T21:23:56.052564Z",
+              "cometBftHeight": "428",
+              "mediatorSynchronizerTime": "2024-06-24T21:23:17.962987Z",
+              "participantSynchronizerTime": "2024-06-24T21:23:51.670678Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:23:56.059014Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:24:50.588850Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:24:50.776511Z",
+      "root_event_ids": [
+        "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:0"
+      ],
+      "events_by_id": {
+        "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00d0ed59ebdde8a87556ef8162b2e04101aaa289506ac8c487a6e0b1c04d8db28aca101220063cd8ed51988f7c9d69a1fda50a000d57009c50a109588aef625902918c1f1b",
+            "status": {
+              "createdAt": "2024-06-24T21:24:50.770011Z",
+              "cometBftHeight": "445",
+              "mediatorSynchronizerTime": "2024-06-24T21:24:22.466241Z",
+              "participantSynchronizerTime": "2024-06-24T21:24:34.902060Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:1",
+            "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:2"
+          ],
+          "exercise_result": {
+            "newReport": "00bcfb04620649a0d0b5e87154953bfe4f74ab8938246952bb860e70d70975408bca1012209ee91d6e6a111395ca6874b10921ca49fd1f1ae7c31c5908896ae1c938341572"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:1",
+          "contract_id": "00d0ed59ebdde8a87556ef8162b2e04101aaa289506ac8c487a6e0b1c04d8db28aca101220063cd8ed51988f7c9d69a1fda50a000d57009c50a109588aef625902918c1f1b",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:2": {
+          "event_type": "created_event",
+          "event_id": "1220f976a823ac58f5ec2674dcf3e8345303a9774f69aef9be83100ffecb6b75c33e:2",
+          "contract_id": "00bcfb04620649a0d0b5e87154953bfe4f74ab8938246952bb860e70d70975408bca1012209ee91d6e6a111395ca6874b10921ca49fd1f1ae7c31c5908896ae1c938341572",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "17",
+            "status": {
+              "createdAt": "2024-06-24T21:24:50.770011Z",
+              "cometBftHeight": "445",
+              "mediatorSynchronizerTime": "2024-06-24T21:24:22.466241Z",
+              "participantSynchronizerTime": "2024-06-24T21:24:34.902060Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:24:50.776511Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:25:51.451170Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:25:53.720844Z",
+      "root_event_ids": [
+        "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:0"
+      ],
+      "events_by_id": {
+        "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "00bcfb04620649a0d0b5e87154953bfe4f74ab8938246952bb860e70d70975408bca1012209ee91d6e6a111395ca6874b10921ca49fd1f1ae7c31c5908896ae1c938341572",
+            "status": {
+              "createdAt": "2024-06-24T21:25:53.714613Z",
+              "cometBftHeight": "467",
+              "mediatorSynchronizerTime": "2024-06-24T21:25:20.853066Z",
+              "participantSynchronizerTime": "2024-06-24T21:25:50.850893Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:1",
+            "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:2"
+          ],
+          "exercise_result": {
+            "newReport": "007e53866f760875f836b97456817ae80188e5d23e94bcc3d086d61a4723375c7fca1012208195627cf6104f2a2f0ce71b855d34617ab72f70129efbd3ea9623c6cec5b662"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:1",
+          "contract_id": "00bcfb04620649a0d0b5e87154953bfe4f74ab8938246952bb860e70d70975408bca1012209ee91d6e6a111395ca6874b10921ca49fd1f1ae7c31c5908896ae1c938341572",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:2": {
+          "event_type": "created_event",
+          "event_id": "1220174f126baa91ca3ad41bcd13b881453636bfd248e6363495d83bcb81d5442347:2",
+          "contract_id": "007e53866f760875f836b97456817ae80188e5d23e94bcc3d086d61a4723375c7fca1012208195627cf6104f2a2f0ce71b855d34617ab72f70129efbd3ea9623c6cec5b662",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "18",
+            "status": {
+              "createdAt": "2024-06-24T21:25:53.714613Z",
+              "cometBftHeight": "467",
+              "mediatorSynchronizerTime": "2024-06-24T21:25:20.853066Z",
+              "participantSynchronizerTime": "2024-06-24T21:25:50.850893Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:25:53.720844Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    },
+    {
+      "update_id": "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7",
+      "migration_id": 0,
+      "workflow_id": "",
+      "record_time": "2024-06-24T21:26:53.984185Z",
+      "synchronizer_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+      "effective_at": "2024-06-24T21:26:54.297900Z",
+      "root_event_ids": [
+        "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:0"
+      ],
+      "events_by_id": {
+        "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:0": {
+          "event_type": "exercised_event",
+          "event_id": "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:0",
+          "contract_id": "0014d9027028819c73d411d4be8fcf971588fc49bf17b0cf62cf040939e436df55ca101220d94aa1d6a7daad10fb1851832548ad924fc5daebf207f56292b18804a6536ef7",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DsoRules:DsoRules",
+          "package_name": "splice-dso-governance",
+          "choice": "DsoRules_SubmitStatusReport",
+          "choice_argument": {
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "previousReportCid": "007e53866f760875f836b97456817ae80188e5d23e94bcc3d086d61a4723375c7fca1012208195627cf6104f2a2f0ce71b855d34617ab72f70129efbd3ea9623c6cec5b662",
+            "status": {
+              "createdAt": "2024-06-24T21:26:54.291856Z",
+              "cometBftHeight": "486",
+              "mediatorSynchronizerTime": "2024-06-24T21:26:21.714356Z",
+              "participantSynchronizerTime": "2024-06-24T21:26:52.290908Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "child_event_ids": [
+            "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:1",
+            "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:2"
+          ],
+          "exercise_result": {
+            "newReport": "0011da3f1a1f1ef4e7a3f53c98607e22e10183171e62ef6c3b60abda389eb43f5bca1012208334c4045aedb923e633f03738cde7ff9c0ff15edffb771efe38c26f43850efd"
+          },
+          "consuming": false,
+          "acting_parties": [
+            "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529"
+          ],
+          "interface_id": null
+        },
+        "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:1": {
+          "event_type": "exercised_event",
+          "event_id": "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:1",
+          "contract_id": "007e53866f760875f836b97456817ae80188e5d23e94bcc3d086d61a4723375c7fca1012208195627cf6104f2a2f0ce71b855d34617ab72f70129efbd3ea9623c6cec5b662",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "choice": "Archive",
+          "choice_argument": {},
+          "child_event_ids": [],
+          "exercise_result": {},
+          "consuming": true,
+          "acting_parties": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "interface_id": null
+        },
+        "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:2": {
+          "event_type": "created_event",
+          "event_id": "1220c028414d32b04b9cd61a7205f25e0776480ae71003087698bc3cf741201143c7:2",
+          "contract_id": "0011da3f1a1f1ef4e7a3f53c98607e22e10183171e62ef6c3b60abda389eb43f5bca1012208334c4045aedb923e633f03738cde7ff9c0ff15edffb771efe38c26f43850efd",
+          "template_id": "b0ae3cc03e418790305a3c15f761fe495572de5827f8d322fb8b96996b783c13:Splice.DSO.SvState:SvStatusReport",
+          "package_name": "splice-dso-governance",
+          "create_arguments": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "sv": "Digital-Asset-2::12209b21d512c6a7e2f5d215266fe6568cb732caaef7ff04e308f990a652340d3529",
+            "svName": "Digital-Asset-2",
+            "number": "19",
+            "status": {
+              "createdAt": "2024-06-24T21:26:54.291856Z",
+              "cometBftHeight": "486",
+              "mediatorSynchronizerTime": "2024-06-24T21:26:21.714356Z",
+              "participantSynchronizerTime": "2024-06-24T21:26:52.290908Z",
+              "latestOpenRound": {
+                "number": "2"
+              }
+            }
+          },
+          "created_at": "2024-06-24T21:26:54.2979Z",
+          "signatories": [
+            "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+          ],
+          "observers": []
+        }
+      }
+    }
+  ]
+}

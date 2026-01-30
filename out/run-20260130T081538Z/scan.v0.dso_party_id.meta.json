@@ -1,0 +1,1 @@
+{"name":"scan.v0.dso_party_id","cmd":"./run_api.sh run scan.v0.dso_party_id","exit_code":0,"valid_json":true,"stdout":"scan.v0.dso_party_id.out","stderr":"scan.v0.dso_party_id.stderr"}

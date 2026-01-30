@@ -1,0 +1,1 @@
+{"name":"scan.v0.events","cmd":"env PAGE_SIZE=25 DAML_VALUE_ENCODING=compact_json ./run_api.sh run scan.v0.events","exit_code":0,"valid_json":true,"stdout":"scan.v0.events.out","stderr":"scan.v0.events.stderr"}
