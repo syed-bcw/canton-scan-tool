@@ -75,7 +75,7 @@ if [[ -f "$REPORT_FILE" ]]; then cp "$REPORT_FILE" "$CLEAN_DIR/report.json"; fi
   echo "|---|---:|:---:|---|---|"
   jq -r '.[] |
     (.valid_json | if . == true then "json" else "txt" end) as $ext |
-    "| \(.name) | \(.exit_code) | \(.valid_json) | responses/\(.name).\($ext) | errors/\(.name).stderr |"' "$INDEX_FILE"
+    "| \(.name) | \(.exit_code) | \(.valid_json) | [responses/\(.name).\($ext)](responses/\(.name).\($ext)) | [errors/\(.name).stderr](errors/\(.name).stderr) |"' "$INDEX_FILE"
 } >"$CLEAN_DIR/README.md"
 
 # For each endpoint, copy stdout/stderr and keep the original meta
