@@ -1,0 +1,4 @@
+validator_party_id=Bima-Validator-1::122002c77e3f27565582dc4fbb50dc3960fce4f2352c09fa1fb92f5466f8af40b2f5
+participant_id=PAR::Bima-Validator-1::122002c77e3f27565582dc4fbb50dc3960fce4f2352c09fa1fb92f5466f8af40b2f5
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

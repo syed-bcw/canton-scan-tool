@@ -1,0 +1,4 @@
+validator_party_id=7Ridge-validator-1::12204814f21ba340ac90d654133a97300a1cb543e0ac8573fe5fa5228fe61522e0ac
+participant_id=PAR::7Ridge-validator-1::12204814f21ba340ac90d654133a97300a1cb543e0ac8573fe5fa5228fe61522e0ac
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

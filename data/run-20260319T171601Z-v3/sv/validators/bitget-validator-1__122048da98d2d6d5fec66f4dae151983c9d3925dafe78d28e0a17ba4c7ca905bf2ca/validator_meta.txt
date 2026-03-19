@@ -1,0 +1,4 @@
+validator_party_id=bitget-validator-1::122048da98d2d6d5fec66f4dae151983c9d3925dafe78d28e0a17ba4c7ca905bf2ca
+participant_id=PAR::bitget-validator-1::122048da98d2d6d5fec66f4dae151983c9d3925dafe78d28e0a17ba4c7ca905bf2ca
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

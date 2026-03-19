@@ -1,0 +1,4 @@
+validator_party_id=Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e
+participant_id=PAR::Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

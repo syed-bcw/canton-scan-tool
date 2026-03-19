@@ -35,10 +35,18 @@ api__curl() {
 
   payload="${1:-}"
 
-  set -- curl -sS --location -X "$method" \
-    --resolve "$resolve" \
-    --noproxy "*" \
-    -H "Accept: application/json"
+  # For local port-forwards we often need --resolve to force curl to hit localhost.
+  # For remote hosts (e.g. conventional validator API), disable with API_USE_RESOLVE=0.
+  if [ "${API_USE_RESOLVE:-1}" = "1" ]; then
+    set -- curl -sS --location -X "$method" \
+      --resolve "$resolve" \
+      --noproxy "*" \
+      -H "Accept: application/json"
+  else
+    set -- curl -sS --location -X "$method" \
+      --noproxy "*" \
+      -H "Accept: application/json"
+  fi
 
   if [ "${API_VERBOSE:-0}" = "1" ]; then
     set -- "$@" -v
@@ -59,7 +67,30 @@ api__curl() {
 
   set -- "$@" "$url"
 
+  if [ "${API_PRINT_CURL:-0}" = "1" ]; then
+    api__print_cmd "$@" >&2
+  fi
+
   "$@"
+}
+
+api__quote_sh() {
+  # POSIX shell single-quote escaping: abc'd -> 'abc'"'"'d'
+  s="$1"
+  printf "'%s'" "$(printf "%s" "$s" | sed "s/'/'\"'\"'/g")"
+}
+
+api__print_cmd() {
+  printf "%s" "curl"
+  shift
+  for arg in "$@"; do
+    if printf "%s" "$arg" | grep -q '^Authorization: Bearer '; then
+      printf " %s" "$(api__quote_sh "Authorization: Bearer <redacted>")"
+      continue
+    fi
+    printf " %s" "$(api__quote_sh "$arg")"
+  done
+  printf "\n"
 }
 
 scan_url() {

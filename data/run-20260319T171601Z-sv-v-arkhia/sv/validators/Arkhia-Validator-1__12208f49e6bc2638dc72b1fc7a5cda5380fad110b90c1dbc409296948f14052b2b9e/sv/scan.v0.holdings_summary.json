@@ -1,0 +1,17 @@
+{
+  "record_time": "2026-03-19T15:00:00Z",
+  "migration_id": 4,
+  "computed_as_of_round": 88097,
+  "summaries": [
+    {
+      "party_id": "Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
+      "total_unlocked_coin": "214883.9387568894",
+      "total_locked_coin": "0.0000000000",
+      "total_coin_holdings": "214883.9387568894",
+      "accumulated_holding_fees_unlocked": "0.0031478112",
+      "accumulated_holding_fees_locked": "0.0000000000",
+      "accumulated_holding_fees_total": "0.0031478112",
+      "total_available_coin": "214883.9356090782"
+    }
+  ]
+}

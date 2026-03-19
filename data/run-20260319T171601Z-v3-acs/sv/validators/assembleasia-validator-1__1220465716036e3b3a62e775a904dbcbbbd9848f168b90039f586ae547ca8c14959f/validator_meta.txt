@@ -1,0 +1,4 @@
+validator_party_id=assembleasia-validator-1::1220465716036e3b3a62e775a904dbcbbbd9848f168b90039f586ae547ca8c14959f
+participant_id=PAR::validator-assembleasia::1220465716036e3b3a62e775a904dbcbbbd9848f168b90039f586ae547ca8c14959f
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

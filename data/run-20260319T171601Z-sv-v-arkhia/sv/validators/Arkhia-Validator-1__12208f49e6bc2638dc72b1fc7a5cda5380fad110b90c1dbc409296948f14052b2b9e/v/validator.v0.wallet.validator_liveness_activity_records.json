@@ -1,0 +1,30 @@
+{
+  "validator_liveness_activity_records": [
+    {
+      "template_id": "67fac2f853bce8dbf0b9817bb5ba7c59f10e8120b7c808696f7010e5f0c8a791:Splice.ValidatorLicense:ValidatorLivenessActivityRecord",
+      "contract_id": "005901e64800d84e8b25896a11117a44e46fdd670d1d8ecdaa405a4d9e36fd472bca121220b5efa4d3bf2205d584ebeb66609650a2c6001c695fbfde150059705a674eb02f",
+      "payload": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "validator": "Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
+        "round": {
+          "number": "88096"
+        }
+      },
+      "created_event_blob": "CgMyLjES8AQKRQBZAeZIANhOiyWJahERekTkb91nDR2OzapAWk2eNv1HK8oSEiC176TTvyIF1YTr62ZgllCixgAcaV+/3hUAWXBaZ06wLxINc3BsaWNlLWFtdWxldBp9CkA2N2ZhYzJmODUzYmNlOGRiZjBiOTgxN2JiNWJhN2M1OWYxMGU4MTIwYjdjODA4Njk2ZjcwMTBlNWYwYzhhNzkxEgZTcGxpY2USEFZhbGlkYXRvckxpY2Vuc2UaH1ZhbGlkYXRvckxpdmVuZXNzQWN0aXZpdHlSZWNvcmQivgFquwEKTQpLOklEU086OjEyMjBiMTQzMWVmMjE3MzQyZGI0NGQ1MTZiYjliZWZkZTgwMmJlN2Q4ODk5NjM3ZDI5MDg5NWZhNTg4ODBmMTlhY2NjClwKWjpYQXJraGlhLVZhbGlkYXRvci0xOjoxMjIwOGY0OWU2YmMyNjM4ZGM3MmIxZmM3YTVjZGE1MzgwZmFkMTEwYjkwYzFkYmM0MDkyOTY5NDhmMTQwNTJiMmI5ZQoMCgpqCAoGCgQYwOAKKklEU086OjEyMjBiMTQzMWVmMjE3MzQyZGI0NGQ1MTZiYjliZWZkZTgwMmJlN2Q4ODk5NjM3ZDI5MDg5NWZhNTg4ODBmMTlhY2NjMlhBcmtoaWEtVmFsaWRhdG9yLTE6OjEyMjA4ZjQ5ZTZiYzI2MzhkYzcyYjFmYzdhNWNkYTUzODBmYWQxMTBiOTBjMWRiYzQwOTI5Njk0OGYxNDA1MmIyYjllOR0ViRFlTQYAQioKJgokCAESIG9Ck4PtRRI3scjJJm0Upf5qQGqeUcS9E/oJf0ph+e7zEB4=",
+      "created_at": "2026-03-19T18:52:21.496093Z"
+    },
+    {
+      "template_id": "67fac2f853bce8dbf0b9817bb5ba7c59f10e8120b7c808696f7010e5f0c8a791:Splice.ValidatorLicense:ValidatorLivenessActivityRecord",
+      "contract_id": "003616eedd0d2a5b6444e61a783263e23eab0f46f181206f613b49c8907ef084e2ca12122053f847cf665b54edf109587785d105c6db6bd4c1ff1f87fdc9482df65779ee86",
+      "payload": {
+        "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+        "validator": "Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
+        "round": {
+          "number": "88097"
+        }
+      },
+      "created_event_blob": "CgMyLjES8AQKRQA2Fu7dDSpbZETmGngyY+I+qw9G8YEgb2E7SciQfvCE4soSEiBT+EfPZltU7fEJWHeF0QXG22vUwf8fh/3JSC32V3nuhhINc3BsaWNlLWFtdWxldBp9CkA2N2ZhYzJmODUzYmNlOGRiZjBiOTgxN2JiNWJhN2M1OWYxMGU4MTIwYjdjODA4Njk2ZjcwMTBlNWYwYzhhNzkxEgZTcGxpY2USEFZhbGlkYXRvckxpY2Vuc2UaH1ZhbGlkYXRvckxpdmVuZXNzQWN0aXZpdHlSZWNvcmQivgFquwEKTQpLOklEU086OjEyMjBiMTQzMWVmMjE3MzQyZGI0NGQ1MTZiYjliZWZkZTgwMmJlN2Q4ODk5NjM3ZDI5MDg5NWZhNTg4ODBmMTlhY2NjClwKWjpYQXJraGlhLVZhbGlkYXRvci0xOjoxMjIwOGY0OWU2YmMyNjM4ZGM3MmIxZmM3YTVjZGE1MzgwZmFkMTEwYjkwYzFkYmM0MDkyOTY5NDhmMTQwNTJiMmI5ZQoMCgpqCAoGCgQYwuAKKklEU086OjEyMjBiMTQzMWVmMjE3MzQyZGI0NGQ1MTZiYjliZWZkZTgwMmJlN2Q4ODk5NjM3ZDI5MDg5NWZhNTg4ODBmMTlhY2NjMlhBcmtoaWEtVmFsaWRhdG9yLTE6OjEyMjA4ZjQ5ZTZiYzI2MzhkYzcyYjFmYzdhNWNkYTUzODBmYWQxMTBiOTBjMWRiYzQwOTI5Njk0OGYxNDA1MmIyYjllOYGCpDllTQYAQioKJgokCAESIGKvOmCt9iXroOjSOz3nz99/ngwVIvnAUz9OQ3IgRynNEB4=",
+      "created_at": "2026-03-19T19:03:34.382209Z"
+    }
+  ]
+}

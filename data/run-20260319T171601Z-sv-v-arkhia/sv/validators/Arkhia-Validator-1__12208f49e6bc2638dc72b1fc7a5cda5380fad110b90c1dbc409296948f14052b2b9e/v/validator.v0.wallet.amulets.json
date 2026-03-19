@@ -1,0 +1,32 @@
+{
+  "amulets": [
+    {
+      "contract": {
+        "contract": {
+          "template_id": "67fac2f853bce8dbf0b9817bb5ba7c59f10e8120b7c808696f7010e5f0c8a791:Splice.Amulet:Amulet",
+          "contract_id": "001b8a1681486e63f85c284f54f75c2a32c9ff8130bca24e4b0a44bc3c4c53ca99ca1212202dd6715dd369caae00858411b76cb2ae94c2ba0162807eebb0a141f56e674e4b",
+          "payload": {
+            "dso": "DSO::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc",
+            "owner": "Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
+            "amount": {
+              "initialAmount": "214967.3633023215",
+              "createdAt": {
+                "number": "88098"
+              },
+              "ratePerRound": {
+                "rate": "0.0001311154"
+              }
+            }
+          },
+          "created_event_blob": "CgMyLjESggUKRQAbihaBSG5j+FwoT1T3XCoyyf+BMLyiTksKRLw8TFPKmcoSEiAt1nFd02nKrgCFhBG3bLKulMK6AWKAfuuwoUH1bmdOSxINc3BsaWNlLWFtdWxldBpaCkA2N2ZhYzJmODUzYmNlOGRiZjBiOTgxN2JiNWJhN2M1OWYxMGU4MTIwYjdjODA4Njk2ZjcwMTBlNWYwYzhhNzkxEgZTcGxpY2USBkFtdWxldBoGQW11bGV0IvMBavABCk0KSzpJRFNPOjoxMjIwYjE0MzFlZjIxNzM0MmRiNDRkNTE2YmI5YmVmZGU4MDJiZTdkODg5OTYzN2QyOTA4OTVmYTU4ODgwZjE5YWNjYwpcClo6WEFya2hpYS1WYWxpZGF0b3ItMTo6MTIyMDhmNDllNmJjMjYzOGRjNzJiMWZjN2E1Y2RhNTM4MGZhZDExMGI5MGMxZGJjNDA5Mjk2OTQ4ZjE0MDUyYjJiOWUKQQo/aj0KFQoTMhEyMTQ5NjcuMzYzMzAyMzIxNQoMCgpqCAoGCgQYxOAKChYKFGoSChAKDjIMMC4wMDAxMzExMTU0KlhBcmtoaWEtVmFsaWRhdG9yLTE6OjEyMjA4ZjQ5ZTZiYzI2MzhkYzcyYjFmYzdhNWNkYTUzODBmYWQxMTBiOTBjMWRiYzQwOTI5Njk0OGYxNDA1MmIyYjllKklEU086OjEyMjBiMTQzMWVmMjE3MzQyZGI0NGQ1MTZiYjliZWZkZTgwMmJlN2Q4ODk5NjM3ZDI5MDg5NWZhNTg4ODBmMTlhY2NjOfbj4VllTQYAQioKJgokCAESIGmWUDu1SgwLm73/J2UcBImCl6HSw0frnZ0NCzdhWWJsEB4=",
+          "created_at": "2026-03-19T19:12:35.275766Z"
+        },
+        "domain_id": "global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc"
+      },
+      "round": 88098,
+      "accrued_holding_fee": "0.0000000000",
+      "effective_amount": "214967.3633023215"
+    }
+  ],
+  "locked_amulets": []
+}

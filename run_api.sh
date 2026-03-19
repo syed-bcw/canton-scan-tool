@@ -31,7 +31,12 @@ Examples:
   $0 list
   $0 run 1 -- --verbose
   $0 run scan.v0.scans
+  $0 run --print-curl scan.v0.scans
   $0 all
+  $0 all --print-curl
+
+Flags:
+  --print-curl         Print the curl command before executing (also via API_PRINT_CURL=1)
 EOF
 }
 
@@ -125,6 +130,17 @@ case "$cmd" in
       echo "run requires an index or name" >&2
       exit 2
     fi
+
+    if [ "${1:-}" = "--print-curl" ]; then
+      export API_PRINT_CURL=1
+      shift
+    fi
+
+    if [ "$#" -lt 1 ]; then
+      echo "run requires an index or name" >&2
+      exit 2
+    fi
+
     target="$1"
     # collect passthrough args after optional --
     shift || true
@@ -142,6 +158,10 @@ case "$cmd" in
     ;;
   all)
     # collect passthrough args after optional --
+    if [ "${1:-}" = "--print-curl" ]; then
+      export API_PRINT_CURL=1
+      shift
+    fi
     if [ "$#" -gt 0 ] && [ "$1" = "--" ]; then
       shift
     fi

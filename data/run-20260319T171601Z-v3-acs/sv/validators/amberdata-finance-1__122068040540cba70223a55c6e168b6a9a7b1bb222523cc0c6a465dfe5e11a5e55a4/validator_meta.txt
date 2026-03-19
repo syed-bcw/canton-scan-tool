@@ -1,0 +1,4 @@
+validator_party_id=amberdata-finance-1::122068040540cba70223a55c6e168b6a9a7b1bb222523cc0c6a465dfe5e11a5e55a4
+participant_id=PAR::amberdata-finance-1::122068040540cba70223a55c6e168b6a9a7b1bb222523cc0c6a465dfe5e11a5e55a4
+domain_id=global-domain::1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc
+migration_id=4

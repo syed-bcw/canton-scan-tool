@@ -1,0 +1,11 @@
+{
+  "validatorsReceivedFaucets": [
+    {
+      "validator": "Arkhia-Validator-1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
+      "numRoundsCollected": 24413,
+      "numRoundsMissed": 21,
+      "firstCollectedInRound": 63664,
+      "lastCollectedInRound": 88097
+    }
+  ]
+}
